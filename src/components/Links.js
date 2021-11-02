@@ -1,15 +1,14 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-const Links = ({ links }) => {
+const Links = ({ link, to }) => {
   return (
     <div className="links">
-      {links.map(link => {
-        return (
-          <p className='link'>
-            {link}
-          </p>
-        );
-      })}
+      <NavLink to={to}>
+        <p className="link">
+          {link}
+        </p>
+      </NavLink>
     </div>
   );
 };
