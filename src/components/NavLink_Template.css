@@ -1,0 +1,7 @@
+.navLinkTemplate-links {
+  text-decoration: none;
+  background-color: aliceblue;
+}
+
+.navLinkTemplate-links :active {
+}

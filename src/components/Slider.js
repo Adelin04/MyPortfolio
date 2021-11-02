@@ -1,18 +1,18 @@
 import React from "react";
-import Links from "./Links";
+import NavBar from "../components/NavBar";
 
 //Style
 import "./Slider.css";
 
 const links = [
-  {
-    url: "About"
-  }
+  { link: "About", to: "/about" },
+  { link: "Projects", to: "/projects" },
 ];
+
 const Slider = () => {
   return (
     <div className="slider">
-      <Links links={links.url} />
+      <NavBar links={links} />
     </div>
   );
 };
