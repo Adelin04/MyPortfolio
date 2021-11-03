@@ -6,8 +6,10 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div style={{ textAlign: "center" }} className="about">
+    <div className="container-page">
       About
+      <p>p</p>
+      <p>p</p>
     </div>
   );
 };

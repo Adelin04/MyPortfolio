@@ -5,6 +5,7 @@ import NavBar from "../components/NavBar";
 import "./Slider.css";
 
 const links = [
+  { link: "Home", to: "/" },
   { link: "About", to: "/about" },
   { link: "Projects", to: "/projects" },
 ];

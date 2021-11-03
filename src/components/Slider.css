@@ -3,11 +3,5 @@
   width: 20%;
   height: 100%;
   background: rgb(0, 201, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 201, 255, 0.9998500620951506) 0%,
-    rgba(0, 149, 241, 1) 25%,
-    rgba(1, 94, 209, 1) 62%,
-    rgba(0, 86, 97, 1) 100%
-  );
+  background: linear-gradient(90deg, #3498db 0%, #2c3e50 100%);
 }

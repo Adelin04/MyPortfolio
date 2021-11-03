@@ -1,7 +1,18 @@
 .navLinkTemplate-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 15px 0px;
+  height: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: larger;
   text-decoration: none;
-  background-color: aliceblue;
+  color: aliceblue;
 }
 
-.navLinkTemplate-links :active {
+.navLinkTemplate-links:active {
+  background-color: aliceblue;
+  color: black;
 }
