@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./components/page/Home";
 import Slider from "./components/Slider";
 import About from "./components/page/About";
-import Projects from "./components/page/Projects";
+import ProjectsList from "./components/page/ProjectsList";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/projects" component={ProjectsList} />
       </Switch>
     </div>
   );

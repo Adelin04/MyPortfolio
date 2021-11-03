@@ -5,7 +5,7 @@ import "./NavLink_Template.css";
 const NavLink_Template = ({ linkName, to }) => {
   return (
     <section className="links">
-      <NavLink className="navLinkTemplate-links" to={to}>
+      <NavLink className="navLinkTemplate-links" exact to={to}>
         {linkName}
       </NavLink>
     </section>

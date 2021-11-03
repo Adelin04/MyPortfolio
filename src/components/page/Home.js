@@ -1,9 +1,7 @@
 import React from "react";
-import NavBar from "../NavBar";
-import Slider from "../Slider";
 
 const Home = () => {
-  return <div className="home">{/* <Slider /> */}</div>;
+  return <div className="home"></div>;
 };
 
 export default Home;
