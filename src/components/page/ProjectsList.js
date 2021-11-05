@@ -7,26 +7,45 @@ const projects = [
     title: "Projects",
     to: "https://app.netlify.com/sites/projects-app-node-react",
     details: "",
-    photo: "",
+    photo: ""
   },
   {
     title: "To-do",
     to: "/https://app.netlify.com/sites/todolist-demo-app",
     details: "",
-    photo: "",
+    photo: "images/to-do.png"
   },
+  {
+    title: "To-do",
+    to: "/https://app.netlify.com/sites/todolist-demo-app",
+    details: "",
+    photo: ""
+  },
+  {
+    title: "To-do",
+    to: "/https://app.netlify.com/sites/todolist-demo-app",
+    details: "",
+    photo: ""
+  }
 ];
 
 const ProjectsList = () => {
   return (
-    <div className="container-page">
+    <div className="projects-list">
+      <h1 className="projects-list-tile" style={{ textAlign: "center" }}>
+        My Projects
+      </h1>
+
       <div className="container-projects">
-        {projects.map((project) => {
-          <ProjectTemplate
-            title={project.title}
-            to={project.to}
-            photo={project.photo}
-          />;
+        {projects.map((project, index) => {
+          return (
+            <ProjectTemplate
+              key={index}
+              title={project.title}
+              to={project.to}
+              photo={project.photo}
+            />
+          );
         })}
       </div>
     </div>

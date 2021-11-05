@@ -1,8 +1,8 @@
 .slider {
-  position: absolute;
   width: 11%;
   min-width: 120px;
   height: 100%;
+  height: auto;
   background: rgb(0, 201, 255);
   background: linear-gradient(90deg, #3498db 0%, #2c3e50 100%);
 }

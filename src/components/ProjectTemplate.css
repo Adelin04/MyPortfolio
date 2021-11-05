@@ -1,12 +1,35 @@
+.projectTemplate {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+  margin: 15px;
+  background-color: coral;
+}
+
 .wrapper-project {
   background-color: aqua;
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: auto;
+  text-align: center;
 }
 
 .title-project {
   background-color: aqua;
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: auto;
   color: black;
+}
+
+.details-project {
+  width: auto;
+  height: auto;
+}
+
+.project-photo{
+  width: 450px;
+  height: 450px;
 }

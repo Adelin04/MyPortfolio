@@ -1,6 +1,6 @@
 import React from "react";
 
-const skills = [
+/* const skills = [
   {
     img: jsIcon,
     para: "Java Script",
@@ -49,7 +49,7 @@ const skills = [
     img: gitIcon,
     para: ".Git",
   },
-];
+]; */
 
 const Skills = () => {
   return <div></div>;

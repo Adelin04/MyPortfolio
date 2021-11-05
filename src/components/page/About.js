@@ -1,12 +1,11 @@
 import React from "react";
-import Slider from "../Slider";
 
 //Style
 import "./About.css";
 
 const About = () => {
   return (
-    <div className="container-page">
+    <div className="about">
       About
       <p>p</p>
       <p>p</p>

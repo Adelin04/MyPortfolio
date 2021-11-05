@@ -1,8 +1,8 @@
 import React from "react";
-import NavBar from "../components/NavBar";
+import NavBar from "./NavBar";
 
 //Style
-import "./Slider.css";
+import "./SideBar.css";
 
 const links = [
   { link: "Home", to: "/" },
@@ -10,7 +10,7 @@ const links = [
   { link: "Projects", to: "/projects" },
 ];
 
-const Slider = () => {
+const SideBar = () => {
   return (
     <div className="slider">
       <NavBar links={links} />
@@ -18,4 +18,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default SideBar;
