@@ -5,25 +5,25 @@ import "./ProjectsList.css";
 const projects = [
   {
     title: "Projects",
-    to: "https://app.netlify.com/sites/projects-app-node-react",
+    to: "https://projects-app-node-react.netlify.app",
     details: "",
-    photo: ""
+    photo: "images/projects.png"
   },
   {
     title: "To-do",
-    to: "/https://app.netlify.com/sites/todolist-demo-app",
+    to: "https://todolist-demo-app.netlify.app",
     details: "",
     photo: "images/to-do.png"
   },
   {
     title: "To-do",
-    to: "/https://app.netlify.com/sites/todolist-demo-app",
+    to: "https://app.netlify.com/sites/todolist-demo-app",
     details: "",
     photo: ""
   },
   {
     title: "To-do",
-    to: "/https://app.netlify.com/sites/todolist-demo-app",
+    to: "https://app.netlify.com/sites/todolist-demo-app",
     details: "",
     photo: ""
   }
@@ -42,7 +42,7 @@ const ProjectsList = () => {
             <ProjectTemplate
               key={index}
               title={project.title}
-              to={project.to}
+              to={{ pathname: `${project.to}` }}
               photo={project.photo}
             />
           );

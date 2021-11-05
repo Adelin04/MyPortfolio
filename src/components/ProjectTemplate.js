@@ -11,8 +11,8 @@ const ProjectTemplate = ({ title, to, photo, details }) => {
         <h1 className="title-project">
           {title}
         </h1>
-        <Link to={to} className="project-link">
-          <img className='project-photo' src={photo} alt={title} />
+        <Link className="project-link" to={to} target={"_blank"}>
+          <img className="project-photo" src={photo} alt={title} />
         </Link>
         <p className="details-project">
           {details}
