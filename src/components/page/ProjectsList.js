@@ -19,13 +19,13 @@ const projects = [
     title: "To-do",
     to: "https://app.netlify.com/sites/todolist-demo-app",
     details: "",
-    photo: ""
+    photo: "images/projects.png"
   },
   {
     title: "To-do",
     to: "https://app.netlify.com/sites/todolist-demo-app",
     details: "",
-    photo: ""
+    photo: "images/to-do.png"
   }
 ];
 

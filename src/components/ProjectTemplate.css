@@ -7,18 +7,18 @@
   width: 450px;
   height: 450px;
   margin: 15px;
-  background-color: coral;
+  /* background-color: coral; */
 }
 
 .wrapper-project {
-  background-color: aqua;
+  /* background-color: aqua; */
   width: auto;
   height: auto;
   text-align: center;
 }
 
 .title-project {
-  background-color: aqua;
+  /* background-color: aqua; */
   width: auto;
   height: auto;
   color: black;
