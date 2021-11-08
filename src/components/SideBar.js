@@ -5,8 +5,8 @@ import NavBar from "./NavBar";
 import "./SideBar.css";
 
 const links = [
-  { link: "Home", to: "/" },
   { link: "About", to: "/about" },
+  { link: "Skills", to: "/skills" },
   { link: "Projects", to: "/projects" },
 ];
 

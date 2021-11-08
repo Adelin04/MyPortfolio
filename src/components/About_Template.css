@@ -1,0 +1,49 @@
+.about_Template {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.wrapper-personalInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+}
+
+.card-personalInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 250px;
+  /* background-color: burlywood; */
+}
+
+.email,
+.phone,
+.address,
+.linkedin,
+.github {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  height: 35px;
+  padding: 5px;
+  font-size: larger;
+}
+
+.linkedin,
+.github {
+  color: blue;
+  cursor: pointer;
+}
+
+.photo {
+  width: 200px;
+  height: 250px;
+}

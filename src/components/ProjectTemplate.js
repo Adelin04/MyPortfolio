@@ -15,7 +15,11 @@ const ProjectTemplate = ({ title, to, photo, details }) => {
           <img className="project-photo" src={photo} alt={title} />
         </Link>
         <p className="details-project">
-          {details}
+          {details.map((icon, index) => {
+            return (
+              <img className="details-project-photo" src={icon} key={index} />
+            );
+          })}
         </p>
       </div>
     </div>
