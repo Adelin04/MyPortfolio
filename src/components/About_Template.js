@@ -5,7 +5,7 @@ import "./About_Template.css";
 
 const inlineStyle_icons = {
   width: "auto",
-  margin: "15px"
+  margin: "0px 15px"
 };
 
 const About_Template = ({ personlInfo, iconsList }) => {
@@ -26,11 +26,13 @@ const About_Template = ({ personlInfo, iconsList }) => {
             {personlInfo.address}
           </p>
           <p className="linkedin">
+            <img style={inlineStyle_icons} src={iconsList.linkedin} />
             <Link to={personlInfo.linkedin} target="_blank">
               LinkedIn
             </Link>
           </p>
           <p className="github">
+            <img style={inlineStyle_icons} src={iconsList.github} />
             <Link to={personlInfo.github} target="_blank">
               Github
             </Link>

@@ -3,6 +3,8 @@ import About_Template from "../About_Template";
 import phoneIcon from "../icons/phone.svg";
 import emailIcon from "../icons/email.svg";
 import addressIcon from "../icons/address.svg";
+import linkedinIcon from "../icons/linkedin.svg";
+import githubIcon from "../icons/github2.svg";
 
 //Style
 import "./About.css";
@@ -10,7 +12,9 @@ import "./About.css";
 const iconsList = {
   phone: phoneIcon,
   email: emailIcon,
-  address: addressIcon
+  address: addressIcon,
+  linkedin: linkedinIcon,
+  github: githubIcon
 };
 const personalInfo = {
   email: "adelin.marin04@yahoo.com",
