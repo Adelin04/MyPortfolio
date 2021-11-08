@@ -1,14 +1,14 @@
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import Skills from "./components/page/Skills";
-import Slider from "./components/SideBar";
+import SliderBar from "./components/SliderBar";
 import About from "./components/page/About";
 import ProjectsList from "./components/page/ProjectsList";
 
 function App() {
   return (
     <div className="App">
-      <Slider />
+      <SliderBar />
       {/* <ProjectsList /> */}
       <div className="container">
         <Switch>
