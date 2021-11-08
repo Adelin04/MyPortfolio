@@ -19,7 +19,7 @@ const iconsList = {
 const personalInfo = {
   email: "adelin.marin04@yahoo.com",
   phone: "0774617663",
-  address: "Pitest, Romania",
+  address: "Pitesti, Romania",
   github: "https://github.com/Adelin04",
   linkedin: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/",
   photo: "../Adelin.jpg"

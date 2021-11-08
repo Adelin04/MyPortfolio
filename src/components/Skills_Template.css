@@ -4,9 +4,10 @@
   /* flex-direction: column; */
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
   height: auto;
   margin: auto;
+  overflow: auto;
   /* background-color: coral; */
 }
 

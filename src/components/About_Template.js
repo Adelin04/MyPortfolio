@@ -5,7 +5,7 @@ import "./About_Template.css";
 
 const inlineStyle_icons = {
   width: "auto",
-  margin: "0px 15px"
+  margin: "0px 15px",
 };
 
 const About_Template = ({ personlInfo, iconsList }) => {
@@ -14,19 +14,19 @@ const About_Template = ({ personlInfo, iconsList }) => {
       <div className="wrapper-personalInfo">
         <div className="card-personalInfo">
           <p className="email">
-            <img style={inlineStyle_icons} src={iconsList.email} />
+            <img style={inlineStyle_icons} src={iconsList.email} alt='email'/>
             {personlInfo.email}
           </p>
           <p className="phone">
-            <img style={inlineStyle_icons} src={iconsList.phone} />
+            <img style={inlineStyle_icons} src={iconsList.phone} alt='phone'/>
             {personlInfo.phone}
           </p>
           <p className="address">
-            <img style={inlineStyle_icons} src={iconsList.address} />
+            <img style={inlineStyle_icons} src={iconsList.address} alt='address'/>
             {personlInfo.address}
           </p>
           <p className="linkedin">
-            <img style={inlineStyle_icons} src={iconsList.linkedin} />
+            <img style={inlineStyle_icons} src={iconsList.linkedin} alt='linkedin'/>
             <Link to={personlInfo.linkedin} target="_blank">
               LinkedIn
             </Link>

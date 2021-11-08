@@ -3,11 +3,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .wrapper-personalInfo {
   display: flex;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
   align-items: center;
   height: 350px;
@@ -44,6 +45,18 @@
 }
 
 .photo {
-  width: 200px;
+  width: 260px;
   height: 250px;
+}
+
+@media screen and (max-width: 750px) {
+  .wrapper-personalInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    height: auto;
+    margin-bottom: 10px;
+  }
 }
