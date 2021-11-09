@@ -9,10 +9,11 @@ function App() {
   return (
     <div className="App">
       <SliderBar />
-      {/* <ProjectsList /> */}
+      
       <div className="container">
         <Switch>
-          <Route exact path="/about" component={About} />
+          <Route exact path={"/about"} component={About} />
+          <Route exact path={"/"} component={About} />
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/projects" component={ProjectsList} />
         </Switch>
