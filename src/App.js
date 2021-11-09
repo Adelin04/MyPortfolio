@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <SliderBar />
-      
+
       <div className="container">
         <Switch>
           <Route exact path={"/about"} component={About} />

@@ -5,9 +5,9 @@ import NavBar from "./NavBar";
 import "./SliderBar.css";
 
 const links = [
-  { link: "About", to: "/about" },
+  { link: "About", to: "/" },
   { link: "Skills", to: "/skills" },
-  { link: "Projects", to: "/projects" },
+  { link: "Projects", to: "/projects" }
 ];
 
 const SliderBar = () => {
