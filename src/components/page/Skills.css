@@ -4,4 +4,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: auto;
+  height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .skill {
+    margin: 0px;
+  }
+
+  .skill-photo {
+    width: 35px;
+    height: auto;
+  }
 }

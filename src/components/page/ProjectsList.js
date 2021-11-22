@@ -39,9 +39,9 @@ const projects = [
     photo: "../waterboat.png"
   },
   {
-    title: "To-do",
+    title: "To-do-list",
     to: "https://todolist-demo-app.netlify.app",
-    details: [javascriptIcon, netlifyIcon],
+    details: [javascriptIcon,reactIcon, netlifyIcon],
     photo: "../to-do.png"
   }
 ];

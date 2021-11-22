@@ -63,3 +63,50 @@
   height: auto;
   margin: auto;
 }
+
+@media screen and (max-width: 500px) {
+  .projectTemplate {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 450px;
+    margin: 35px;
+    /* background-color: coral; */
+  }
+
+  .wrapper-project {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .details-project {
+    flex-wrap: wrap;
+  }
+
+  .project-photo {
+    width: 150px;
+    height: auto;
+    margin: 5px;
+    border-radius: 15px;
+  }
+
+  .project-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin: 40px 0px;
+}
+}

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from "react";
 import Skills_Template from "../Skills_Template";
 
@@ -17,34 +18,22 @@ import javaIcon from "../icons/java.svg";
 import flaskIcon from "../icons/flask.svg";
 import springIcon from "../icons/spring.svg";
 import mysqlIcon from "../icons/mysql.svg";
+import cucumberIcon from "../icons/cucumber.svg";
+import seleniumIcon from "../icons/selenium.svg";
+import postgresqlIcon from "../icons/postgresql.svg";
+import nodeIcon from "../icons/nodejs.svg";
 
 // Social Icon
 // import githubIcon from "./icons/github.svg";
 
-const skills = [
+const Languages = [
   {
     img: jsIcon,
     name: "Java Script"
   },
   {
-    img: reactIcon,
-    name: "React"
-  },
-  {
     img: javaIcon,
     name: "Java"
-  },
-  {
-    img: springIcon,
-    name: "Spring Boot"
-  },
-  {
-    img: pythonIcon,
-    name: "Python"
-  },
-  {
-    img: flaskIcon,
-    name: "Flask"
   },
   {
     img: csharpIcon,
@@ -55,8 +44,8 @@ const skills = [
     name: "C++"
   },
   {
-    img: mysqlIcon,
-    name: "MySql"
+    img: pythonIcon,
+    name: "Python"
   },
   {
     img: htmlIcon,
@@ -65,10 +54,51 @@ const skills = [
   {
     img: cssIcon,
     name: "CSS"
+  }
+];
+
+const Framework = [
+  {
+    img: reactIcon,
+    name: "React"
   },
+  {
+    img: nodeIcon,
+    name: "Node"
+  },
+  {
+    img: springIcon,
+    name: "Spring Boot"
+  },
+  {
+    img: flaskIcon,
+    name: "Flask"
+  }
+];
+
+const Tools = [
   {
     img: gitIcon,
     name: ".Git"
+  },
+  {
+    img: cucumberIcon,
+    name: "Cucumber"
+  },
+  {
+    img: seleniumIcon,
+    name: "Selenium"
+  }
+];
+
+const DataBases = [
+  {
+    img: mysqlIcon,
+    name: "MySql"
+  },
+  {
+    img: postgresqlIcon,
+    name: "Postgresql"
   }
 ];
 
@@ -78,7 +108,12 @@ const Skills = () => {
       {/* {skills.map(skill => {
         return <Skills_Template skills={skill} />;
       })} */}
-      <Skills_Template skills={skills} />
+      <Skills_Template
+        Languages={Languages}
+        Frameworks={Framework}
+        Tools={Tools}
+        DataBases={DataBases}
+      />
     </div>
   );
 };
