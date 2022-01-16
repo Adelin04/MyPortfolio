@@ -1,194 +1,208 @@
-  .about_Template {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    /* background-color: aqua; */
-  }
+.about_Template {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
 
-  .wrapper-personalInfo {
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-around;
-    align-items: center;
-    height: auto;
-    padding: 5px;
-    /* margin: auto; */
-  }
+.wrapper-personalInfo {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  padding: 5px;
+  /* margin: auto; */
+}
 
-  .card-personalInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 350px;
-    height: 250px;
-    /* background-color: burlywood; */
-  }
+.card-personalInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 250px;
+  /* background-color: burlywood; */
+}
 
-  .email,
-  .phone,
-  .address,
-  .linkedin,
-  .github {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    box-sizing: border-box;
-    height: 35px;
-    padding: 5px;
-    font-size: larger;
-  }
+.email,
+.phone,
+.address,
+.linkedin,
+.github {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  height: 35px;
+  padding: 5px;
+  font-size: larger;
+}
 
-  .linkedin,
-  .github {
-    color: blue;
-    cursor: pointer;
-  }
+.linkedin,
+.github {
+  color: blue;
+  cursor: pointer;
+}
 
-  .photo {
-    width: 200px;
-    height: 200px;
-  }
+.photo {
+  width: 200px;
+  height: 200px;
+}
 
-  /* Experience */
+/* Experience */
 
-  .wrapper-work-experince {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 100%;
-    height: auto;
-    margin: 15px auto;
-  }
+.wrapper-work-experince {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+}
 
-  .card-work-experince {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    height: auto;
-    margin: 5px;
-    overflow-y: visible;
-    overflow-x: hidden;
-    /* background-color: aqua; */
-  }
+.card-work-experince {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: 5px;
+  overflow-y: visible;
+  overflow-x: hidden;
+  /* background-color: aqua; */
+}
 
-  .wrapper-job {
-    margin: 5px;
-  }
+.wrapper-job {
+  margin: 5px;
+}
 
-  .job-title,
-  .job-position,
-  .job-from-to {
-    width: auto;
-    height: auto;
-  }
+.job-title,
+.job-position,
+.job-from-to {
+  width: auto;
+  height: auto;
+}
 
-  .job-title {
-    font-size: large;
-    font-weight: bolder;
-  }
+.job-title {
+  font-size: large;
+  font-weight: bolder;
+}
 
-  label {
-    font-size: large;
-    font-weight: bolder;
-    min-width: 140px;
-    width: auto;
-    height: auto;
-    /* background-color: crimson; */
-  }
+label {
+  font-size: large;
+  font-weight: bolder;
+  min-width: 140px;
+  width: auto;
+  height: auto;
+  /* background-color: crimson; */
+}
 
-  .wrapper-education {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 100%;
-    height: auto;
-    margin: 15px auto;
-    /* background-color: bisque; */
-  }
+.wrapper-education {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+  /* background-color: bisque; */
+}
 
-  .card-education {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    height: auto;
-    margin: 5px;
-    overflow-y: visible;
-    overflow-x: hidden;
-  }
+.card-education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: 5px;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
 
-  .school-profile,
-  .school-name,
-  .school-from-to {
-    width: auto;
-    height: auto;
-  }
+.school-profile,
+.school-name,
+.school-from-to {
+  width: auto;
+  height: auto;
+}
 
-  .school-profile {
-    font-size: large;
-    font-weight: bolder;
-  }
+.school-profile {
+  font-size: large;
+  font-weight: bolder;
+}
 
-  .card-languages {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    height: auto;
-    margin: 5px;
-    overflow-y: visible;
-    overflow-x: hidden;
-  }
+.card-languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: 5px;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
 
-  .wrapper-languages {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 100%;
-    height: auto;
-    margin: 15px auto;
-    /* background-color: coral; */
-  }
+.wrapper-languages {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+  /* background-color: coral; */
+}
 
-  .language {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: auto;
-    height: auto;
-  }
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
 
-  .wrapper-certifications {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 100%;
-    height: auto;
-    margin: 15px auto;
-    /* background-color: bisque; */
-  }
+.wrapper-certifications {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+  /* background-color: bisque; */
+}
 
-  .card-certifications {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    height: auto;
-    margin: 5px;
-    overflow-y: visible;
-    overflow-x: hidden;
-  }
+.card-certifications {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: 5px;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
 
-  .certification {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: auto;
-    height: auto;
-  }
+.certification {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+
+.btn-save {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 200px;
+  height: 30px;
+  margin: 0px 55px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
 
 /* @media screen and (max-width: 750px) {
   .wrapper-personalInfo {

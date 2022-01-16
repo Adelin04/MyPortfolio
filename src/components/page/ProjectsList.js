@@ -1,6 +1,7 @@
 import React from "react";
-import ProjectTemplate from "../ProjectTemplate";
 import "./ProjectsList.css";
+
+import ProjectTemplate from "../ProjectTemplate";
 import reactIcon from "../icons/react.svg";
 import mysqlIcon from "../icons/mysql.svg";
 import javascriptIcon from "../icons/javascript.svg";
@@ -14,9 +15,9 @@ import netlifyIcon from "../icons/netlify.svg";
 const projects = [
   {
     title: "Snake",
-    to: "https://todolist-demo-app.netlify.app",
-    details: [javascriptIcon,reactIcon, netlifyIcon],
-    photo: "../to-do.png"
+    to: "https://snake-react-gam3.netlify.app",
+    details: [reactIcon, netlifyIcon],
+    photo: "../snake.png",
   },
   {
     title: "Projects",
@@ -27,9 +28,9 @@ const projects = [
       mysqlIcon,
       aws_bucketIcon,
       herokuIcon,
-      netlifyIcon
+      netlifyIcon,
     ],
-    photo: "../projects.png"
+    photo: "../projects.png",
   },
   {
     title: "waterboat",
@@ -40,15 +41,15 @@ const projects = [
       flaskIcon,
       mysqlIcon,
       herokuIcon,
-      netlifyIcon
+      netlifyIcon,
     ],
-    photo: "../waterboat.png"
+    photo: "../waterboat.png",
   },
   {
     title: "To-do-list",
     to: "https://todolist-demo-app.netlify.app",
-    details: [javascriptIcon,reactIcon, netlifyIcon],
-    photo: "../to-do.png"
+    details: [javascriptIcon, reactIcon, netlifyIcon],
+    photo: "../to-do.png",
   },
 ];
 
