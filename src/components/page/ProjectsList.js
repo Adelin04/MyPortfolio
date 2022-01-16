@@ -13,6 +13,12 @@ import netlifyIcon from "../icons/netlify.svg";
 
 const projects = [
   {
+    title: "Snake",
+    to: "https://todolist-demo-app.netlify.app",
+    details: [javascriptIcon,reactIcon, netlifyIcon],
+    photo: "../to-do.png"
+  },
+  {
     title: "Projects",
     to: "https://projects-app-node-react.netlify.app",
     details: [
@@ -43,7 +49,7 @@ const projects = [
     to: "https://todolist-demo-app.netlify.app",
     details: [javascriptIcon,reactIcon, netlifyIcon],
     photo: "../to-do.png"
-  }
+  },
 ];
 
 const ProjectsList = () => {
