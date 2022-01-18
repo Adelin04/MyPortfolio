@@ -18,6 +18,8 @@ const projects = [
     to: "https://snake-react-gam3.netlify.app",
     details: [reactIcon, netlifyIcon],
     photo: "../snake.png",
+    description:
+      "A simple snake game. To make this game I used ReactJs framework.",
   },
   {
     title: "Projects",
@@ -31,6 +33,7 @@ const projects = [
       netlifyIcon,
     ],
     photo: "../projects.png",
+    description: "......",
   },
   {
     title: "waterboat",
@@ -44,12 +47,14 @@ const projects = [
       netlifyIcon,
     ],
     photo: "../waterboat.png",
+    description: "......",
   },
   {
     title: "To-do-list",
     to: "https://todolist-demo-app.netlify.app",
     details: [javascriptIcon, reactIcon, netlifyIcon],
     photo: "../to-do.png",
+    description: "......",
   },
 ];
 
@@ -69,6 +74,7 @@ const ProjectsList = () => {
               to={{ pathname: `${project.to}` }}
               photo={project.photo}
               details={project.details}
+              description={project.description}
             />
           );
         })}
