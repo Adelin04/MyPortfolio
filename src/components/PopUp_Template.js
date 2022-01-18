@@ -48,12 +48,12 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 300px;
+    width: auto;
     height: 15px;
     font-size: 13px;
     color: black;
     font-style: italic;
     top: 275px;
-    left: 0px;
+    left: 2px;
   }
 `;
