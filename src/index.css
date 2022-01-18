@@ -19,7 +19,7 @@ body {
 }
 
 :root {
-  --myBlue: rgb(0, 201, 255);
+  --myBlue: linear-gradient(90deg, #3498db 0%, #2c3e50 100%);
   --textGrey: rgb(21, 19, 19);
 }
 
