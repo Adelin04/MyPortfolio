@@ -12,8 +12,6 @@ import aws_bucketIcon from "../icons/aws_bucket.svg";
 import herokuIcon from "../icons/heroku.svg";
 import netlifyIcon from "../icons/netlify.svg";
 
-import { Link } from "react-router-dom";
-
 const projects = [
   {
     title: "Projects",
@@ -32,8 +30,7 @@ const projects = [
     Just colleagues which make part of team can saw in their list this project and just the admin can it editing.
     The frontend was created in ReactJs framework and I used some hooks like  Reducers,Context and other.
     The backend was created with Node express.
-    For database I used MySQL and for user profile pictures I used AWS S3.
-    To see the code please click on github icon.`
+    For database I used MySQL and for user profile pictures I used AWS S3.`
   },
   {
     title: "Snake",
@@ -41,8 +38,7 @@ const projects = [
     toGhithub: "https://github.com/Adelin04/Snake",
     details: [reactIcon, netlifyIcon],
     photo: "../snake.png",
-    description: `A simple snake game. To make this game I used ReactJs framework.
-    To see the code please click on github icon.`
+    description: `A simple snake game. To make this game I used ReactJs framework.`
   },
   {
     title: "waterboat",
@@ -61,7 +57,6 @@ const projects = [
       The frontend was created in ReactJs framework .
       The backend was created with Python (Flask framework).
       For database I used MySQL.
-      To see the code please click on github icon.
       `
   },
   {
@@ -72,8 +67,7 @@ const projects = [
     photo: "../to-do.png",
     description: `ToDo list is a simple app where you can create,editing and delete your tasks.
                   The app was created in ReactJs framework and I used some hooks like Reducers.
-                  The application saves the tasks in localStorage.
-                  To see the code please click on github icon.`
+                  The application saves the tasks in localStorage.`
   }
 ];
 

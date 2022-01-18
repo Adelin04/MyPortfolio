@@ -13,6 +13,7 @@ const PopUp_Template = ({ description, toGhithub }) => {
         target={"_blank"}
       >
         <img className="icon-ghithub" src={githubIcon} alt="icon-ghithub" />
+        <p className="msg-icon">To see the code please click on github icon.</p>
       </Link>
     </Wrapper>
   );
@@ -40,5 +41,19 @@ const Wrapper = styled.div`
     top: 270px;
     width: 30px;
     height: auto;
+  }
+
+  .msg-icon {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    height: 15px;
+    font-size: 13px;
+    color: black;
+    font-style: italic;
+    top: 275px;
+    left: 0px;
   }
 `;
