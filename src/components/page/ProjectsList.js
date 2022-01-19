@@ -28,13 +28,12 @@ const projects = [
     photo: "../projects.png",
     description: `"Projects" as the name implies is a project management app:
     You can create new projects, assign team members, set deadlines, change statuses.
-    It has user access rights; the participants can see and edit only the projects they are part of.
+    It has user access rights the participants can see and edit only the projects they are part of.
     Tech stack used:
     -	ReacJS for the frontend
     -	Node.JS with Express for the backend
     -	MySQL for the database
-    -	AWS S3 to serve images
-    `
+    -	AWS S3 to serve images`
   },
   {
     title: "Snake",
