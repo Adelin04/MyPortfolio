@@ -43,6 +43,7 @@ const projects = [
   {
     title: "waterboat",
     to: "https://water-boat.netlify.app",
+    toGhithub: "https://github.com/Adelin04/waterboat",
     details: [
       reactIcon,
       pythonIcon,
@@ -68,6 +69,22 @@ const projects = [
     description: `ToDo list is a simple app where you can create,editing and delete your tasks.
                   The app was created in ReactJs framework and I used some hooks like Reducers.
                   The application saves the tasks in localStorage.`
+  },
+  {
+    title: "Bibliotech",
+    to:
+      "https://github.com/Adelin04/Bibliotech/blob/main/Tema-punct%20bonus-Modul3-TFP.pdf",
+    toGhithub: "https://github.com/Adelin04/Bibliotech",
+    details: [pythonIcon, flaskIcon, netlifyIcon],
+    photo: "../Bibliotech.png",
+    description: `Bibliotech represent a flask server for a website with rent a books.
+    This was a topic in module three of the courses I took at the 'Academia te fac programtor'.
+    The database was representated from four text files.
+    (DB_books,DB_reviews,
+    DB_transactions,DB_users //.txt).
+    In addition to the requirements of theme 
+    I created an algorithm that reads the text files and increment the number of the next item that will be added in the file,
+    to mimic the autoIncrement of a real database.`
   }
 ];
 

@@ -6,7 +6,9 @@ import githubIcon from "./icons/github2.svg";
 const PopUp_Template = ({ description, toGhithub }) => {
   return (
     <Wrapper>
-      {description}
+      <div className="wrapper-description">
+        {description}
+      </div>
       <Link
         style={{ width: "auto", height: "auto" }}
         to={{ pathname: toGhithub }}
@@ -26,14 +28,21 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
-  height: 300px;
-  text-align: center;
-  font-size: 14px;
-  font-weight: bolder;
-  color: black;
   border-radius: 15px;
   background: rgba(189, 182, 182, 0.652);
+
+  .wrapper-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    color: black;
+  }
 
   .icon-ghithub {
     position: absolute;
