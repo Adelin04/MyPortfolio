@@ -28,7 +28,7 @@ const projects = [
     photo: "../projects.png",
     description: `"Projects" is an app where a user can create a new project and he can choose the team to work with,sett a deadline and a description for this project.
     Just colleagues which make part of team can saw in their list this project and just the admin can it editing.
-    The frontend was created in ReactJs framework and I used some hooks like  Reducers,Context and other.
+    The frontend was created in ReactJs framework and I used some hooks like Reducers,Context and other.
     The backend was created with Node express.
     For database I used MySQL and for user profile pictures I used AWS S3.`
   },

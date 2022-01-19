@@ -65,4 +65,40 @@ const Wrapper = styled.div`
     top: 275px;
     left: 2px;
   }
+
+  @media screen and (max-width: 500px) {
+    .wrapper-description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px;
+      width: 90%;
+      height: auto;
+      text-align: center;
+      font-size: 8px;
+      font-weight: bolder;
+      color: black;
+    }
+
+    .msg-icon {
+      position: absolute;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: auto;
+      height: 15px;
+      font-size: 8px;
+      color: black;
+      font-style: italic;
+      top: 150px;
+      left: 8px;
+    }
+    .icon-ghithub {
+      position: absolute;
+      left: 155px;
+      top: 150px;
+      width: 20px;
+      height: auto;
+    }
+  }
 `;

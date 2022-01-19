@@ -6,7 +6,14 @@ import PopUp_Template from "./PopUp_Template";
 //style
 import "./ProjectTemplate.css";
 
-const ProjectTemplate = ({ title, to, photo, details, description,toGhithub }) => {
+const ProjectTemplate = ({
+  title,
+  to,
+  photo,
+  details,
+  description,
+  toGhithub
+}) => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="projectTemplate">
@@ -23,7 +30,11 @@ const ProjectTemplate = ({ title, to, photo, details, description,toGhithub }) =
           target={"_blank"}
         >
           <WrapperPopUp>
-            {toggle && <PopUp_Template description={description} toGhithub={toGhithub}/>}
+            {toggle &&
+              <PopUp_Template
+                description={description}
+                toGhithub={toGhithub}
+              />}
             <img
               style={{ zIndex: "-1" }}
               className="project-photo"
@@ -59,4 +70,21 @@ const WrapperPopUp = styled.div`
   align-items: center;
   width: 300px;
   height: 300px;
+
+  @media screen and (max-width: 500px) {
+    width: 190px;
+    height: auto;
+
+    .project-link {
+      width: 190px;
+      height: auto;
+    }
+
+    .project-photo {
+      width: 190px;
+      height: auto;
+      margin: 5px;
+      border-radius: 14px;
+    }
+  }
 `;
