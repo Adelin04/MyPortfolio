@@ -26,11 +26,15 @@ const projects = [
       netlifyIcon
     ],
     photo: "../projects.png",
-    description: `"Projects" is an app where a user can create a new project and he can choose the team to work with,sett a deadline and a description for this project.
-    Just colleagues which make part of team can saw in their list this project and just the admin can it editing.
-    The frontend was created in ReactJs framework and I used some hooks like Reducers,Context and other.
-    The backend was created with Node express.
-    For database I used MySQL and for user profile pictures I used AWS S3.`
+    description: `"Projects" as the name implies is a project management app:
+    You can create new projects, assign team members, set deadlines, change statuses.
+    It has user access rights; the participants can see and edit only the projects they are part of.
+    Tech stack used:
+    -	ReacJS for the frontend
+    -	Node.JS with Express for the backend
+    -	MySQL for the database
+    -	AWS S3 to serve images
+    `
   },
   {
     title: "Snake",
@@ -53,11 +57,11 @@ const projects = [
       netlifyIcon
     ],
     photo: "../waterboat.png",
-    description: `Waterboat is a web site where people can make booking for boats.
-      It have 3 page,main page,booking page and view rezervation page.
-      The frontend was created in ReactJs framework .
-      The backend was created with Python (Flask framework).
-      For database I used MySQL.
+    description: `Waterboat is a web site where people can book boats.
+    It has 3 pages: main page, booking page and view reservation page.
+    The frontend was created using ReactJs framework.
+    The backend was created with Python (Flask framework).
+    For database I used MySQL
       `
   },
   {
@@ -66,9 +70,10 @@ const projects = [
     toGhithub: "https://github.com/Adelin04/ToDo-App-React",
     details: [javascriptIcon, reactIcon, netlifyIcon],
     photo: "../to-do.png",
-    description: `ToDo list is a simple app where you can create,editing and delete your tasks.
-                  The app was created in ReactJs framework and I used some hooks like Reducers.
-                  The application saves the tasks in localStorage.`
+    description: `ToDo List is a simple app for tasks management:
+    The app was created with ReactJs framework and I used some hooks like reducer,useEffect.
+    The application saves the tasks in browser’s local storage.
+`
   },
   {
     title: "Bibliotech",
@@ -77,14 +82,12 @@ const projects = [
     toGhithub: "https://github.com/Adelin04/Bibliotech",
     details: [pythonIcon, flaskIcon, netlifyIcon],
     photo: "../Bibliotech.png",
-    description: `Bibliotech represent a flask server for a website with rent a books.
-    This was a topic in module three of the courses I took at the 'Academia te fac programtor'.
-    The database was representated from four text files.
-    (DB_books,DB_reviews,
-    DB_transactions,DB_users //.txt).
-    In addition to the requirements of theme 
-    I created an algorithm that reads the text files and increment the number of the next item that will be added in the file,
-    to mimic the autoIncrement of a real database.`
+    description: `Bibliotech is the backend of a book renting app.
+    This was a required task in module three of the courses I took at the 'Academia te fac programtor'.It uses 4 .txt files to store the data:
+    (DB_books,DB_reviews,DB_transactions,
+    DB_users).
+    In addition to the task’s requirements I created an algorithm that reads the text files and increment the number of the next item that will be added in the file to mimic the auto increment of a real database.
+`
   }
 ];
 

@@ -47,7 +47,7 @@ const Wrapper = styled.div`
   .icon-ghithub {
     position: absolute;
     left: 260px;
-    top: 270px;
+    top: 265px;
     width: 30px;
     height: auto;
   }
@@ -62,8 +62,8 @@ const Wrapper = styled.div`
     font-size: 13px;
     color: black;
     font-style: italic;
-    top: 275px;
-    left: 2px;
+    top: 272px;
+    left: 5px;
   }
 
   @media screen and (max-width: 500px) {
