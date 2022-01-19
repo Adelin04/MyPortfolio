@@ -72,19 +72,7 @@ const WrapperPopUp = styled.div`
   height: 300px;
 
   @media screen and (max-width: 500px) {
-    width: 190px;
+    width: 200px;
     height: auto;
-
-    .project-link {
-      width: 190px;
-      height: auto;
-    }
-
-    .project-photo {
-      width: 190px;
-      height: auto;
-      margin: 5px;
-      border-radius: 14px;
-    }
   }
 `;

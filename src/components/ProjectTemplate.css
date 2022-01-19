@@ -73,7 +73,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: auto;
     height: 450px;
     margin: 35px;
   }
@@ -84,7 +84,7 @@
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 500px;
+    height: auto;
     margin: auto;
     padding: 5px;
     text-align: center;
@@ -95,9 +95,9 @@
   }
 
   .project-photo {
-    width: 180px;
-    height: auto;
-    margin: 5px;
+    width: 200px;
+    max-height: 200px;
+    margin: auto;
     border-radius: 14px;
   }
 
@@ -105,7 +105,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
+    max-width: 220px;
     height: auto;
     margin: 40px 0px;
     /* border: 1px solid rgba(189, 182, 182, 0.652); */

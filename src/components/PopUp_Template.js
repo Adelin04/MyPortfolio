@@ -9,6 +9,7 @@ const PopUp_Template = ({ description, toGhithub }) => {
       <div className="wrapper-description">
         {description}
       </div>
+
       <Link
         style={{ width: "auto", height: "auto" }}
         to={{ pathname: toGhithub }}
@@ -28,6 +29,7 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   border-radius: 15px;
   background: rgba(189, 182, 182, 0.652);
 
@@ -75,7 +77,7 @@ const Wrapper = styled.div`
       width: 90%;
       height: auto;
       text-align: center;
-      font-size: 8px;
+      font-size: 10px;
       font-weight: bolder;
       color: black;
     }
@@ -90,13 +92,13 @@ const Wrapper = styled.div`
       font-size: 8px;
       color: black;
       font-style: italic;
-      top: 150px;
-      left: 8px;
+      top: 180px;
+      left: 10px;
     }
     .icon-ghithub {
       position: absolute;
-      left: 155px;
-      top: 150px;
+      left: 160px;
+      top: 180px;
       width: 20px;
       height: auto;
     }
