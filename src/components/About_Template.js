@@ -59,7 +59,8 @@ const About_Template = ({
           />
         </button>
         <div className="wrapper-personalInfo">
-          <div className="name"
+          <div
+            className="name"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -243,6 +244,7 @@ const About_Template = ({
                   <p className="language">
                     {language.language} {`(${language.nivel})`}
                   </p>
+                  <p className="language">English courses - present</p>
                   <hr style={{ height: "1px", color: "black" }} />
                 </div>
               );
