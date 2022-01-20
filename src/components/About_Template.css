@@ -51,8 +51,68 @@
   height: 200px;
 }
 
-/* Experience */
+/* Developer Experience */
+.wrapper-developer-experince {
+  /*   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto; */
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+}
 
+.wrapper-label-developer-experince {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: 0;
+  height: auto;
+}
+.wrapper-label-developer-experince span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  text-align: center;
+  margin: auto;
+}
+
+.card-developer-experince {
+  /*   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: 5px;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.wrapper-developer-experince-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+}
+
+/* Work Experience */
 .wrapper-work-experince {
   display: flex;
   justify-content: space-around;
@@ -78,6 +138,8 @@
   margin: 5px;
 }
 
+.project-title,
+.project-description,
 .job-title,
 .job-position,
 .job-from-to {
@@ -85,7 +147,9 @@
   height: auto;
 }
 
+.project-title,
 .job-title {
+  margin: 5px;
   font-size: large;
   font-weight: bolder;
 }
@@ -121,6 +185,7 @@ label {
 }
 
 .school-profile,
+.certification,
 .school-name,
 .school-from-to {
   width: auto;
@@ -188,6 +253,15 @@ label {
   justify-content: flex-start;
   width: auto;
   height: auto;
+  font-size: large;
+  font-weight: bolder;
+}
+
+li {
+  text-align: center;
+  width: auto;
+  padding: 0px 5px;
+  margin: 0px 5px;
 }
 
 .btn-save {
@@ -216,9 +290,11 @@ label {
   }
 } */
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
   label {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: auto;
     height: auto;
     margin: auto;
@@ -251,6 +327,27 @@ label {
     font-size: 15px;
   }
 
+  .wrapper-label-developer-experince {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: auto;
+    height: auto;
+  }
+
+  .wrapper-label-developer-experince span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    text-align: center;
+    margin: auto;
+  }
+
+  .wrapper-developer-experince,
   .wrapper-work-experince,
   .wrapper-education,
   .wrapper-certifications,
@@ -263,6 +360,7 @@ label {
   }
 
   .card-personalInfo,
+  .card-developer-experince,
   .card-work-experince,
   .card-education,
   .card-certifications,

@@ -12,25 +12,25 @@ const CV_MARIN_ADELIN_MARIUS = CV_decoded;
 const doc = new jsPDF("p", "px", "letter");
 doc.addImage(CV_MARIN_ADELIN_MARIUS, "JPEG", 5, 10, 470, 700);
 doc.textWithLink("            ", 180, 95, {
-  url: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/",
+  url: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/"
 });
 doc.textWithLink("            ", 180, 106, {
-  url: "https://github.com/Adelin04",
+  url: "https://github.com/Adelin04"
 });
 doc.textWithLink("            ", 180, 118, {
-  url: "https://adelin-marin-portfolio.netlify.app",
+  url: "https://adelin-marin-portfolio.netlify.app"
 });
 
 const inlineStyle_icons = {
   width: "auto",
-  margin: "0px 15px",
+  margin: "0px 15px"
 };
 
 const inlineStyle_wrapper = {
   display: "flex",
   justifyContent: "center",
   alignItem: "center",
-  flexDirection: "column",
+  flexDirection: "column"
 };
 
 const About_Template = ({
@@ -40,6 +40,7 @@ const About_Template = ({
   schools,
   languages,
   certifications,
+  projects
 }) => {
   return (
     <div className="about_Template">
@@ -104,15 +105,59 @@ const About_Template = ({
           <img className="photo" src={personlInfo.photo} />
         </div>
         <hr style={{ height: "1px" }} />
+        <div className="wrapper-developer-experince">
+          <div className="wrapper-label-developer-experince">
+            <label>Developer Experince </label>
+            <span>
+              You can see all the projects in the{" "}
+              <Link
+                to={{ pathname: "/projects" }}
+                style={{
+                  textDecoration: "none ",
+                  fontWeight: "bolder",
+                  color: "black"
+                }}
+              >
+                PROJECTS
+              </Link>{" "}
+              tab
+            </span>
+          </div>
+          <div className="card-developer-experince">
+            {projects.map((project, index) => {
+              return (
+                <div
+                  className="wrapper-developer-experince-project"
+                  key={index}
+                >
+                  <p className="project-title">
+                    {project.title}
+                  </p>
+                  <p className="project-description">
+                    {project.description}
+                  </p>
+                  <hr style={{ height: "1px", color: "black" }} />
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <hr style={{ height: "1px" }} />
         <div className="wrapper-work-experince">
           <label>Work Experince</label>
           <div className="card-work-experince">
             {experince.map((exp, index) => {
               return (
                 <div className="wrapper-job" key={index}>
-                  <p className="job-title">{exp.title}</p>
-                  <p className="job-position">{exp.position}</p>
-                  <p className="job-from-to">{exp.from_to}</p>
+                  <p className="job-title">
+                    {exp.title}
+                  </p>
+                  <p className="job-position">
+                    {exp.position}
+                  </p>
+                  <p className="job-from-to">
+                    {exp.from_to}
+                  </p>
                   <hr style={{ height: "1px", color: "black" }} />
                 </div>
               );
@@ -126,9 +171,15 @@ const About_Template = ({
             {schools.map((school, index) => {
               return (
                 <div style={inlineStyle_wrapper} key={index}>
-                  <p className="school-profile">{school.profile}</p>
-                  <p className="school-name">{school.name}</p>
-                  <p className="school-from-to">{school.from_to}</p>
+                  <p className="school-profile">
+                    {school.profile}
+                  </p>
+                  <p className="school-name">
+                    {school.name}
+                  </p>
+                  <p className="school-from-to">
+                    {school.from_to}
+                  </p>
                   <hr style={{ height: "1px", color: "black" }} />
                 </div>
               );
@@ -145,6 +196,26 @@ const About_Template = ({
                   <p className="certification">
                     {certification.name} {`${certification.certification}`}
                   </p>
+                  <p>Modul 1 : Fundamentals of programming C/C++ Algorithms</p>
+                  <p>Modul 2 : C# OOP</p>
+                  <span>Modul 3 : </span>
+                  <div style={{ display: "flex" }}>
+                    <li> Python </li>
+                    <li> Flask</li>
+                    <li> Java Script </li>
+                    <li> React Js</li>
+                  </div>
+                  <span>Modul 4 :</span>
+                  <div style={{ display: "flex", flexWrap: "wrap" }}>
+                    <li> Java </li>
+                    <li> Spring Boot</li>
+                    <li> Maven </li>
+                    <li> Hibernate </li>
+                    <li> MySQL</li>
+                    <li>Cucumber</li>
+                    <li> Selenium </li>
+                  </div>
+
                   <hr style={{ height: "1px", color: "black" }} />
                 </div>
               );

@@ -71,8 +71,7 @@ const projects = [
     photo: "../to-do.png",
     description: `ToDo List is a simple app for tasks management:
     The app was created with ReactJs framework and I used some hooks like reducer,useEffect.
-    The application saves the tasks in browser’s local storage.
-`
+    The application saves the tasks in browser’s local storage.`
   },
   {
     title: "Bibliotech",
