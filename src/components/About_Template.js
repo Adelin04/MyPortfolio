@@ -12,13 +12,13 @@ const CV_MARIN_ADELIN_MARIUS = CV_decoded;
 
 const doc = new jsPDF("p", "px", "letter");
 doc.addImage(CV_MARIN_ADELIN_MARIUS, "JPEG", 5, 10, 470, 700);
-doc.textWithLink("            ", 180, 95, {
+doc.textWithLink("            ", 160, 65, {
   url: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/"
 });
-doc.textWithLink("            ", 180, 106, {
+doc.textWithLink("            ", 160, 78, {
   url: "https://github.com/Adelin04"
 });
-doc.textWithLink("            ", 180, 118, {
+doc.textWithLink("            ", 160, 92, {
   url: "https://adelin-marin-portfolio.netlify.app"
 });
 
