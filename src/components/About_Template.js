@@ -236,6 +236,7 @@ const About_Template = ({
                     <li> MySQL</li>
                     <li>Cucumber</li>
                     <li> Selenium </li>
+                    <li> .Git </li>
                   </div>
 
                   <hr style={{ height: "1px", color: "black" }} />
