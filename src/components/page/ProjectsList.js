@@ -56,7 +56,7 @@ const projects = [
       netlifyIcon
     ],
     photo: "../waterboat.png",
-    description: `Waterboat is a web site where people can book boats.
+    description: `"Waterboat" is a web site where people can book boats.
     It has 3 pages: main page, booking page and view reservation page.
     The frontend was created using ReactJs framework.
     The backend was created with Python (Flask framework).
@@ -69,7 +69,7 @@ const projects = [
     toGhithub: "https://github.com/Adelin04/ToDo-App-React",
     details: [javascriptIcon, reactIcon, netlifyIcon],
     photo: "../to-do.png",
-    description: `ToDo List is a simple app for tasks management:
+    description: `"ToDo List" is a simple app for tasks management:
     The app was created with ReactJs framework and I used some hooks like reducer,useEffect.
     The application saves the tasks in browser’s local storage.`
   },
@@ -80,7 +80,7 @@ const projects = [
     toGhithub: "https://github.com/Adelin04/Bibliotech",
     details: [pythonIcon, flaskIcon, netlifyIcon],
     photo: "../Bibliotech.png",
-    description: `Bibliotech is the backend of a book renting app.
+    description: `"Bibliotech" is the backend of a book renting app.
     This was a required task in module three of the courses I took at the 'Academia te fac programator'.
     It uses 4 .txt files to store the data:
     (DB_books,DB_reviews,
