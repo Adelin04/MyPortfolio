@@ -6,6 +6,15 @@
   /* background-color: aqua; */
 }
 
+.name span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  font-size: 42px;
+  text-align: center;
+}
+
 .wrapper-personalInfo {
   display: flex;
   /* flex-wrap: wrap; */

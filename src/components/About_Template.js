@@ -59,6 +59,17 @@ const About_Template = ({
           />
         </button>
         <div className="wrapper-personalInfo">
+          <div className="name"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              width: "auto",
+              fontSize: "35px",
+              fontWeight: "bolder"
+            }}
+          >
+            <span>Adelin Marin</span>
+          </div>
           <div className="card-personalInfo">
             <p className="email">
               <img
