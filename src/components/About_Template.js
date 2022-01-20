@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { jsPDF } from "jspdf";
 import { CV_decoded } from "../components/base64_decoded";
 import saveIcon from "./icons/save-icon.png";
+import portfolioIcon from "./icons/portfolio.svg";
 
 //Style
 import "./About_Template.css";
@@ -110,6 +111,15 @@ const About_Template = ({
               <img style={inlineStyle_icons} src={iconsList.github} />
               <Link to={{ pathname: personlInfo.github }} target="_blank">
                 Github
+              </Link>
+            </p>
+            <p className="github">
+              <img style={inlineStyle_icons} src={portfolioIcon} />
+              <Link
+                to={{ pathname: "https://adelin-marin-portfolio.netlify.app" }}
+                target="_blank"
+              >
+                Portfolio
               </Link>
             </p>
           </div>
