@@ -111,7 +111,7 @@ const certifications = [
   { name: "Acedemia Te Fac Programator", certification: "" }
 ];
 
-const languages = [{ language: "English", nivel: "Limited Work" }];
+const languages = [{ language: "English", nivel: "Medium" }];
 
 const About = () => {
   return (

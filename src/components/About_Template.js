@@ -253,7 +253,7 @@ const About_Template = ({
               return (
                 <div style={inlineStyle_wrapper} key={index}>
                   <p className="language">
-                    {language.language} {`(${language.nivel})`}
+                    {language.language} {`- ${language.nivel}`}
                   </p>
                   <p className="language">English courses - present</p>
                   <hr style={{ height: "1px", color: "black" }} />
