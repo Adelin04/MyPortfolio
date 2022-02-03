@@ -61,7 +61,7 @@ const projects = [
   },
   {
     title: "BIBLIOTECH",
-    description: `"Bibliotech" is the backend of a book renting app.
+    description: `"Bibliotech" is the backend of a book renting app and it was created in Python Flask.
     This was a required task in module three of the courses I took at the 'Academia te fac programator'.
     It uses 4 .txt files to store the data:
     (DB_books,DB_reviews,
@@ -111,7 +111,7 @@ const certifications = [
   { name: "Acedemia Te Fac Programator", certification: "" }
 ];
 
-const languages = [{ language: "English", nivel: "Medium" }];
+const languages = [{ language: "English", nivel: "B2" }];
 
 const About = () => {
   return (
