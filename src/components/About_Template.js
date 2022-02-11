@@ -11,14 +11,15 @@ import "./About_Template.css";
 const CV_MARIN_ADELIN_MARIUS = CV_decoded;
 
 const doc = new jsPDF("p", "px", "letter");
-doc.addImage(CV_MARIN_ADELIN_MARIUS, "PNG", 0, 0, 460, 650);
-doc.textWithLink("                      ", 25, 314, {
+doc.addImage(CV_MARIN_ADELIN_MARIUS, "PNG", 0, 0, 460, 600);
+
+doc.textWithLink("                      ", 25, 290, {
   url: "https://github.com/Adelin04"
 });
-doc.textWithLink("                      ", 25, 325, {
+doc.textWithLink("                      ", 25, 302, {
   url: "https://adelin-marin-portfolio.netlify.app"
 });
-doc.textWithLink("                      ", 25, 337, {
+doc.textWithLink("                      ", 25, 313, {
   url: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/"
 });
 
