@@ -11,8 +11,31 @@ import nodeIcon from "../icons/nodejs.svg";
 import aws_bucketIcon from "../icons/aws_bucket.svg";
 import herokuIcon from "../icons/heroku.svg";
 import netlifyIcon from "../icons/netlify.svg";
+import NetIcon from "../icons/NET_Core_Logo.png";
 
 const projects = [
+  {
+    title: "E-commerce",
+    to: "https://e-commerce-boutique.netlify.app",
+    toGhithub: "https://github.com/Adelin04/E-commerce_AspNet_React",
+    details: [
+      reactIcon,
+      NetIcon,
+      mysqlIcon,
+      aws_bucketIcon,
+      herokuIcon,
+      netlifyIcon
+    ],
+    photo: "../Butique.png",
+    description: ` "E-commerce" as the name implies is an online store : The app is under construction. 
+    Tech stack used:
+     - Asp .Net for the backend 
+     - ReacJS for the frontend 
+     - Redux-Toolkit
+     - MySQL for the database 
+     - AWS S3 to serve images
+    `
+  },
   {
     title: "Projects",
     to: "https://projects-app-node-react.netlify.app",

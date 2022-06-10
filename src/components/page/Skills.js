@@ -22,6 +22,7 @@ import cucumberIcon from "../icons/cucumber.svg";
 import seleniumIcon from "../icons/selenium.svg";
 import postgresqlIcon from "../icons/postgresql.svg";
 import nodeIcon from "../icons/nodejs.svg";
+import netIcon from "../icons/NET_Core_Logo.png";
 
 // Social Icon
 // import githubIcon from "./icons/github.svg";
@@ -29,85 +30,86 @@ import nodeIcon from "../icons/nodejs.svg";
 const Languages = [
   {
     img: jsIcon,
-    name: "Java Script"
+    name: "Java Script",
   },
   {
     img: javaIcon,
-    name: "Java"
+    name: "Java",
   },
   {
     img: csharpIcon,
-    name: "C#"
+    name: "C#",
   },
   {
     img: cIcon,
-    name: "C++"
+    name: "C++",
   },
   {
     img: pythonIcon,
-    name: "Python"
+    name: "Python",
   },
   {
     img: htmlIcon,
-    name: "HTML"
+    name: "HTML",
   },
   {
     img: cssIcon,
-    name: "CSS"
-  }
+    name: "CSS",
+  },
 ];
 
 const Framework = [
   {
     img: reactIcon,
-    name: "React"
+    name: "React",
   },
   {
     img: nodeIcon,
-    name: "Node"
+    name: "Node",
+  },
+  {
+    img: netIcon,
+    name: ".Net",
   },
   {
     img: springIcon,
-    name: "Spring Boot"
+    name: "Spring Boot",
   },
   {
     img: flaskIcon,
-    name: "Flask"
-  }
+    name: "Flask",
+  },
 ];
 
 const Tools = [
   {
     img: gitIcon,
-    name: ".Git"
+    name: ".Git",
   },
   {
     img: cucumberIcon,
-    name: "Cucumber"
+    name: "Cucumber",
   },
   {
     img: seleniumIcon,
-    name: "Selenium"
-  }
+    name: "Selenium",
+  },
 ];
 
 const DataBases = [
   {
     img: mysqlIcon,
-    name: "MySql"
+    name: "MySql",
   },
   {
     img: postgresqlIcon,
-    name: "Postgresql"
-  }
+    name: "Postgresql",
+  },
 ];
 
 const Skills = () => {
   return (
     <div className="skills">
-      {/* {skills.map(skill => {
-        return <Skills_Template skills={skill} />;
-      })} */}
       <Skills_Template
         Languages={Languages}
         Frameworks={Framework}

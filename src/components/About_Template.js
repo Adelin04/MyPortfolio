@@ -13,26 +13,26 @@ const CV_MARIN_ADELIN_MARIUS = CV_decoded;
 const doc = new jsPDF("p", "px", "letter");
 doc.addImage(CV_MARIN_ADELIN_MARIUS, "PNG", 0, 0, 460, 600);
 
-doc.textWithLink("                      ", 25, 290, {
-  url: "https://github.com/Adelin04"
+doc.textWithLink("                      ", 25, 385, {
+  url: "https://github.com/Adelin04",
 });
-doc.textWithLink("                      ", 25, 302, {
-  url: "https://adelin-marin-portfolio.netlify.app"
+doc.textWithLink("                      ", 25, 400, {
+  url: "https://adelin-marin-portfolio.netlify.app",
 });
-doc.textWithLink("                      ", 25, 313, {
-  url: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/"
+doc.textWithLink("                      ", 25, 410, {
+  url: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/",
 });
 
 const inlineStyle_icons = {
   width: "auto",
-  margin: "0px 15px"
+  margin: "0px 15px",
 };
 
 const inlineStyle_wrapper = {
   display: "flex",
   justifyContent: "center",
   alignItem: "center",
-  flexDirection: "column"
+  flexDirection: "column",
 };
 
 const About_Template = ({
@@ -42,7 +42,7 @@ const About_Template = ({
   schools,
   languages,
   certifications,
-  projects
+  projects,
 }) => {
   return (
     <div className="about_Template">
@@ -68,7 +68,7 @@ const About_Template = ({
               flexDirection: "column",
               width: "auto",
               fontSize: "35px",
-              fontWeight: "bolder"
+              fontWeight: "bolder",
             }}
           >
             <span>Adelin Marin</span>
@@ -132,18 +132,18 @@ const About_Template = ({
           <div className="wrapper-label-developer-experince">
             <label>Developer Experince </label>
             <span>
-              You can see all the projects in the{" "}
+              {/* 
               <Link
                 to={{ pathname: "/projects" }}
                 style={{
                   textDecoration: "none ",
                   fontWeight: "bolder",
-                  color: "black"
+                  color: "black",
                 }}
               >
                 PROJECTS
               </Link>{" "}
-              tab
+              tab */}
             </span>
           </div>
           <div className="card-developer-experince">
@@ -153,12 +153,8 @@ const About_Template = ({
                   className="wrapper-developer-experince-project"
                   key={index}
                 >
-                  <p className="project-title">
-                    {project.title}
-                  </p>
-                  <p className="project-description">
-                    {project.description}
-                  </p>
+                  <p className="project-title">{project.title}</p>
+                  <p className="project-description">{project.description}</p>
                   <hr style={{ height: "1px", color: "black" }} />
                 </div>
               );
@@ -172,15 +168,9 @@ const About_Template = ({
             {experince.map((exp, index) => {
               return (
                 <div className="wrapper-job" key={index}>
-                  <p className="job-title">
-                    {exp.title}
-                  </p>
-                  <p className="job-position">
-                    {exp.position}
-                  </p>
-                  <p className="job-from-to">
-                    {exp.from_to}
-                  </p>
+                  <p className="job-title">{exp.title}</p>
+                  <p className="job-position">{exp.position}</p>
+                  <p className="job-from-to">{exp.from_to}</p>
                   <hr style={{ height: "1px", color: "black" }} />
                 </div>
               );
@@ -194,15 +184,9 @@ const About_Template = ({
             {schools.map((school, index) => {
               return (
                 <div style={inlineStyle_wrapper} key={index}>
-                  <p className="school-profile">
-                    {school.profile}
-                  </p>
-                  <p className="school-name">
-                    {school.name}
-                  </p>
-                  <p className="school-from-to">
-                    {school.from_to}
-                  </p>
+                  <p className="school-profile">{school.profile}</p>
+                  <p className="school-name">{school.name}</p>
+                  <p className="school-from-to">{school.from_to}</p>
                   <hr style={{ height: "1px", color: "black" }} />
                 </div>
               );

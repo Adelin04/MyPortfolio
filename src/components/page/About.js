@@ -30,6 +30,17 @@ const iconsList = {
 
 const projects = [
   {
+    title: "E-commerce",
+    description: `"E-commerce" as the name implies is an online store : The app is under construction. 
+    Tech stack used:
+     - .Asp .Net for the backend 
+     - ReacJS for the frontend 
+     -  Redux-Toolkit
+     - MySQL for the database 
+     - AWS S3 to serve images
+    `
+  },
+  {
     title: "PROJECTS",
     description: `"Projects" as the name implies is a project management app:
     You can create new projects, assign team members, set deadlines, change statuses.
