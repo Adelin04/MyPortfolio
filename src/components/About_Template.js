@@ -16,10 +16,10 @@ doc.addImage(CV_MARIN_ADELIN_MARIUS, "PNG", 0, 0, 460, 600);
 doc.textWithLink("                      ", 25, 385, {
   url: "https://github.com/Adelin04",
 });
-doc.textWithLink("                      ", 25, 400, {
+doc.textWithLink("                      ", 25, 396, {
   url: "https://adelin-marin-portfolio.netlify.app",
 });
-doc.textWithLink("                      ", 25, 410, {
+doc.textWithLink("                      ", 25, 407, {
   url: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/",
 });
 
