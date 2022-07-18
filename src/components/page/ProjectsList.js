@@ -67,7 +67,7 @@ const projects = [
     description: `A simple snake game. To make this game I used ReactJs framework.`
   },
   {
-    title: "waterboat",
+    title: "Waterboat",
     to: "https://water-boat.netlify.app",
     toGhithub: "https://github.com/Adelin04/waterboat",
     details: [
