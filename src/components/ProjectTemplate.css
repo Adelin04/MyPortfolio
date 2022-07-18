@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   width: auto;
-  height: 500px;
+  height: auto;
   margin: auto;
   padding: 5px;
   text-align: center;
@@ -27,6 +27,7 @@
   width: auto;
   height: auto;
   margin: 15px;
+  font-size: 25px;
   color: black;
   flex-direction: column;
   align-items: center;
@@ -37,14 +38,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
+  width: 100%;
   height: auto;
+  margin: 10px auto;
 }
 
 .details-project-photo {
   width: 30px;
   height: 30px;
-  margin: 0px 5px;
+  margin: 5px;
   padding: 5px;
 }
 
@@ -74,8 +76,8 @@
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 450px;
-    margin: 35px;
+    height: auto;
+    margin: 15px;
   }
 
   .wrapper-project {
@@ -92,6 +94,8 @@
 
   .details-project {
     flex-wrap: wrap;
+    width: 80%;
+    /* margin: auto; */
   }
 
   .project-photo {
@@ -107,7 +111,7 @@
     align-items: center;
     max-width: 220px;
     height: auto;
-    margin: 40px 0px;
+    /* margin: 40px 0px; */
     /* border: 1px solid rgba(189, 182, 182, 0.652); */
     border-radius: 15px;
   }

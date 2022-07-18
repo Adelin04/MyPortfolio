@@ -70,6 +70,7 @@ const WrapperPopUp = styled.div`
   align-items: center;
   width: 300px;
   height: 300px;
+  
 
   @media screen and (max-width: 500px) {
     width: 200px;

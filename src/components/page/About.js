@@ -119,7 +119,7 @@ const schools = [
 ];
 
 const certifications = [
-  { name: "Acedemia Te Fac Programator", certification: "" }
+  { name: "'Te Fac Programator'", certification: "" }
 ];
 
 const languages = [{ language: "English", nivel: "B2" }];

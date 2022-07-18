@@ -23,11 +23,6 @@ doc.textWithLink("                      ", 25, 407, {
   url: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/",
 });
 
-const inlineStyle_icons = {
-  width: "auto",
-  margin: "0px 15px",
-};
-
 const inlineStyle_wrapper = {
   display: "flex",
   justifyContent: "center",
@@ -73,59 +68,49 @@ const About_Template = ({
           >
             <span>Adelin Marin</span>
           </div>
-          <div className="card-personalInfo">
-            <p className="email">
-              <img
-                style={inlineStyle_icons}
-                src={iconsList.email}
-                alt="email"
-              />
-              {personlInfo.email}
-            </p>
-            <p className="phone">
-              <img
-                style={inlineStyle_icons}
-                src={iconsList.phone}
-                alt="phone"
-              />
-              {personlInfo.phone}
-            </p>
-            <p className="address">
-              <img
-                style={inlineStyle_icons}
-                src={iconsList.address}
-                alt="address"
-              />
-              {personlInfo.address}
-            </p>
-            <p className="linkedin">
-              <img
-                style={inlineStyle_icons}
-                src={iconsList.linkedin}
-                alt="linkedin"
-              />
-              <Link to={{ pathname: personlInfo.linkedin }} target="_blank">
-                LinkedIn
-              </Link>
-            </p>
-            <p className="github">
-              <img style={inlineStyle_icons} src={iconsList.github} />
-              <Link to={{ pathname: personlInfo.github }} target="_blank">
-                Github
-              </Link>
-            </p>
-            <p className="github">
-              <img style={inlineStyle_icons} src={portfolioIcon} />
-              <Link
-                to={{ pathname: "https://adelin-marin-portfolio.netlify.app" }}
-                target="_blank"
-              >
-                Portfolio
-              </Link>
-            </p>
-          </div>
 
-          <img className="photo" src={personlInfo.photo} />
+          <div className="wrapper-card-personalInfo">
+            <div className="card-personalInfo">
+              <p className="linkedin">
+                <img src={iconsList.linkedin} alt="linkedin" />
+                <Link to={{ pathname: personlInfo.linkedin }} target="_blank">
+                  <span>LinkedIn</span>
+                </Link>
+              </p>
+              <p className="github">
+                <img src={iconsList.github} />
+                <Link to={{ pathname: personlInfo.github }} target="_blank">
+                  <span>Github</span>
+                </Link>
+              </p>
+              <p className="github">
+                <img src={portfolioIcon} />
+                <Link
+                  to={{
+                    pathname: "https://adelin-marin-portfolio.netlify.app",
+                  }}
+                  target="_blank"
+                >
+                  <span>Portfolio</span>
+                </Link>
+              </p>
+
+              <p className="phone">
+                <img src={iconsList.phone} alt="phone" />
+                <span>{personlInfo.phone}</span>
+              </p>
+              <p className="address">
+                <img src={iconsList.address} alt="address" />
+                <span>{personlInfo.address}</span>
+              </p>
+              <p className="email">
+                <img src={iconsList.email} alt="email" />
+                <span>{personlInfo.email}</span>
+              </p>
+            </div>
+
+            <img className="photo" src={personlInfo.photo} />
+          </div>
         </div>
         <hr style={{ height: "1px" }} />
         <div className="wrapper-developer-experince">
@@ -162,7 +147,7 @@ const About_Template = ({
           </div>
         </div>
         <hr style={{ height: "1px" }} />
-        <div className="wrapper-work-experince">
+        {/* <div className="wrapper-work-experince">
           <label>Work Experince</label>
           <div className="card-work-experince">
             {experince.map((exp, index) => {
@@ -176,8 +161,8 @@ const About_Template = ({
               );
             })}
           </div>
-        </div>
-        <hr style={{ height: "1px" }} />
+        </div> */}
+        {/*  <hr style={{ height: "1px" }} />
         <div className="wrapper-education">
           <label>Education</label>
           <div className="card-education">
@@ -192,7 +177,7 @@ const About_Template = ({
               );
             })}
           </div>
-        </div>
+        </div> */}
         <hr style={{ height: "1px" }} />
         <div className="wrapper-certifications">
           <label>Certifications</label>

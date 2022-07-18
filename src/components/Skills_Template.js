@@ -7,19 +7,21 @@ const Skills_Template = ({ Languages, Frameworks, Tools, DataBases }) => {
   return (
     <div className="skills-container">
       {/* {console.log("skill", skills)} */}
+      
       <p className="languages">Languages</p>
       <div className="wrapper-skills">
         {Languages.map((language, index) => {
           return (
             <div className="skill" key={index}>
               <img className="skill-photo" src={language.img} alt="css" />
-              <p className="skill-name">
+              {/* <p className="skill-name">
                 {language.name}
-              </p>
+              </p> */}
             </div>
           );
         })}
       </div>
+
       <p className="frameworks">Frameworks</p>
       <div className="wrapper-skills">
         {Frameworks.map((framework, index) => {
@@ -47,6 +49,7 @@ const Skills_Template = ({ Languages, Frameworks, Tools, DataBases }) => {
           );
         })}
       </div>
+
       <p className="dataBases">DataBases</p>
       <div className="wrapper-skills">
         {DataBases.map((dataBases, index) => {

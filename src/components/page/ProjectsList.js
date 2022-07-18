@@ -62,7 +62,7 @@ const projects = [
     title: "Snake",
     to: "https://snake-react-gam3.netlify.app",
     toGhithub: "https://github.com/Adelin04/Snake",
-    details: [reactIcon, netlifyIcon],
+    details: [javascriptIcon,reactIcon, netlifyIcon],
     photo: "../snake.png",
     description: `A simple snake game. To make this game I used ReactJs framework.`
   },

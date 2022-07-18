@@ -5,3 +5,11 @@
   background: rgb(0, 201, 255);
   background: linear-gradient(90deg, #3498db 0%, #2c3e50 100%);
 }
+
+@media screen and (max-width: 650px) {
+  .slider {
+    width: 100%;
+    min-height: 170px;
+    height: auto;
+  }
+}
