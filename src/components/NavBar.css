@@ -9,7 +9,7 @@
   height: auto;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .navBar {
     align-items: center;
   }
