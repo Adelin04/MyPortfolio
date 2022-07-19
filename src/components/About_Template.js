@@ -52,20 +52,11 @@ const About_Template = ({
           <img
             style={{ width: "30px", height: "auto" }}
             src={saveIcon}
-            alt="savev"
+            alt="CV"
           />
         </button>
         <div className="wrapper-personalInfo">
-          <div
-            className="name"
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              width: "auto",
-              fontSize: "35px",
-              fontWeight: "bolder",
-            }}
-          >
+          <div className="name">
             <span>Adelin Marin</span>
           </div>
 
@@ -108,8 +99,9 @@ const About_Template = ({
                 <span>{personlInfo.email}</span>
               </p>
             </div>
-
-            <img className="photo" src={personlInfo.photo} />
+            <div className="wrapper-photo">
+              <img className="photo" src={personlInfo.photo} />
+            </div>
           </div>
         </div>
         <hr style={{ height: "1px" }} />
