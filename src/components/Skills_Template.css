@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 30%;
+  height: 40%;
   margin: 15px;
   overflow: auto;
 }
@@ -78,5 +78,15 @@
   .skill {
     margin: 5px;
     padding: 5px;
+  }
+  
+  .skill-photo {
+    width: 25px;
+    height: auto;
+    margin: 0px;
+  }
+
+  .skill-name {
+    font-size: 12px;
   }
 }

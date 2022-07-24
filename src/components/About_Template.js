@@ -8,6 +8,7 @@ import portfolioIcon from "./icons/portfolio.svg";
 //Style
 import "./About_Template.css";
 
+
 const CV_MARIN_ADELIN_MARIUS = CV_decoded;
 
 const doc = new jsPDF("p", "px", "letter");
@@ -39,6 +40,7 @@ const About_Template = ({
   certifications,
   projects,
 }) => {
+
   return (
     <div className="about_Template">
       <div style={{ overflowY: "auto" }}>

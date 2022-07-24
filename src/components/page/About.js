@@ -11,13 +11,14 @@ import githubIcon from "../icons/github2.svg";
 import "./About.css";
 import ProjectsList from "./ProjectsList";
 
+
 const personalInfo = {
   email: "adelin.marin04@yahoo.com",
   phone: "0774617663",
   address: "Pitesti, Romania",
   linkedin: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/",
   github: "https://github.com/Adelin04",
-  photo: "../Adelin.jpg"
+  photo: "../Adelin.jpg",
 };
 
 const iconsList = {
@@ -25,7 +26,7 @@ const iconsList = {
   email: emailIcon,
   address: addressIcon,
   linkedin: linkedinIcon,
-  github: githubIcon
+  github: githubIcon,
 };
 
 const projects = [
@@ -38,7 +39,7 @@ const projects = [
      -  Redux-Toolkit
      - MySQL for the database 
      - AWS S3 to serve images
-    `
+    `,
   },
   {
     title: "PROJECTS",
@@ -49,11 +50,11 @@ const projects = [
     -	ReacJS for the frontend
     -	Node.JS with Express for the backend
     -	MySQL for the database
-    -	AWS S3 to serve images`
+    -	AWS S3 to serve images`,
   },
   {
     title: "SNAKE",
-    description: `A simple snake game. To make this game I used ReactJs framework.`
+    description: `A simple snake game. To make this game I used ReactJs framework.`,
   },
   {
     title: "Waterboat",
@@ -62,13 +63,13 @@ const projects = [
     The frontend was created using ReactJs framework.
     The backend was created with Python (Flask framework).
     For database I used MySQL
-    `
+    `,
   },
   {
     title: "TO-DO LIST",
     description: `"ToDo List" is a simple app for tasks management:
     The app was created with ReactJs framework and I used some hooks like reducer,useEffect.
-    The application saves the tasks in browser’s local storage.`
+    The application saves the tasks in browser’s local storage.`,
   },
   {
     title: "BIBLIOTECH",
@@ -78,31 +79,31 @@ const projects = [
     (DB_books,DB_reviews,
     DB_transactions,DB_users).
     In addition to the task’s requirements I created an algorithm that reads the text files and increment the number of the next item that will be added in the file to mimic the auto increment of a real database.
-`
-  }
+`,
+  },
 ];
 
 const experince = [
   {
     title: "TEILOR",
     position: "Fotograf (bijuterii)",
-    from_to: "2019 - curent | Pitesti"
+    from_to: "2019 - curent | Pitesti",
   },
   {
     title: "",
     position: "Specialist Achizitii",
-    from_to: "Martie 2015 - Decembrie 2019 | Pitesti"
+    from_to: "Martie 2015 - Decembrie 2019 | Pitesti",
   },
   {
     title: "NEW YORKER",
     position: "Responsabil Departament",
-    from_to: "Iulie 2011 - Februarie 2015 | Pitesti"
+    from_to: "Iulie 2011 - Februarie 2015 | Pitesti",
   },
   {
     title: "FOX",
     position: "Casier",
-    from_to: "Iunie 2008 - Iulie 2011 | Pitesti"
-  }
+    from_to: "Iunie 2008 - Iulie 2011 | Pitesti",
+  },
   /*   {
     title: "BETTY ICE",
     position: "Casier",
@@ -114,17 +115,16 @@ const schools = [
   {
     profile: "Tehnician,Electromecanica",
     name: 'Liceul ICM "DACIA" ',
-    from_to: "2004-2009 | Pitesti"
-  }
+    from_to: "2004-2009 | Pitesti",
+  },
 ];
 
-const certifications = [
-  { name: "'Te Fac Programator'", certification: "" }
-];
+const certifications = [{ name: "'Te Fac Programator'", certification: "" }];
 
 const languages = [{ language: "English", nivel: "B2" }];
 
 const About = () => {
+  
   return (
     <div className="about">
       <About_Template
