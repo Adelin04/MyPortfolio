@@ -6,12 +6,13 @@ import Skills_Template from "../Skills_Template";
 import "./Skills.css";
 
 // Skills Icons
-import htmlIcon from "../icons/html.svg";
+import htmlIcon from "../icons/html.png";
+import mongodbIcon from "../icons/mongodb.ico";
 import cssIcon from "../icons/css.svg";
-import reactIcon from "../icons/react.svg";
+import reactIcon from "../icons/reactjs.png";
 import jsIcon from "../icons/javascript.svg";
 import pythonIcon from "../icons/python.svg";
-import gitIcon from "../icons/git.svg";
+import gitIcon from "../icons/git.png";
 import csharpIcon from "../icons/csharp.svg";
 import cIcon from "../icons/c.svg";
 import javaIcon from "../icons/java.svg";
@@ -37,14 +38,6 @@ const Languages = [
     name: "Java",
   },
   {
-    img: csharpIcon,
-    name: "C#",
-  },
-  {
-    img: cIcon,
-    name: "C++",
-  },
-  {
     img: pythonIcon,
     name: "Python",
   },
@@ -64,16 +57,12 @@ const Framework = [
     name: "React",
   },
   {
-    img: nodeIcon,
-    name: "Node",
-  },
-  {
-    img: netIcon,
-    name: ".Net",
-  },
-  {
     img: springIcon,
     name: "Spring Boot",
+  },
+  {
+    img: nodeIcon,
+    name: "Node",
   },
   {
     img: flaskIcon,
@@ -104,6 +93,10 @@ const DataBases = [
   {
     img: postgresqlIcon,
     name: "Postgresql",
+  },
+  {
+    img: mongodbIcon,
+    name: "MongoDB",
   },
 ];
 
