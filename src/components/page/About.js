@@ -32,13 +32,13 @@ const iconsList = {
 const projects = [
   {
     title: "E-commerce",
-    description: `"E-commerce" as the name implies is an online store : The app is under construction.
+    description: ` "E-commerce" as the name implies is an online store : The app is under construction.\n 
     Tech stack used:
-     - Java Spring Boot for the backend 
-     - ReacJS for the frontend 
-     - Redux-Toolkit
-     - MongoDb for the database 
-     - AWS S3 to serve images
+    - .NET 7 for the backend 
+    - ReacJS for the frontend
+    - Redux-Toolkit for state container
+    - MySql for the database 
+    - AWS S3 to serve images
     `,
   },
   {

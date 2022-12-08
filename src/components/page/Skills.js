@@ -34,8 +34,8 @@ const Languages = [
     name: "Java Script",
   },
   {
-    img: javaIcon,
-    name: "Java",
+    img: csharpIcon,
+    name: "C#",
   },
   {
     img: pythonIcon,
@@ -57,8 +57,8 @@ const Framework = [
     name: "React",
   },
   {
-    img: springIcon,
-    name: "Spring Boot",
+    img: netIcon,
+    name: ".NET",
   },
   {
     img: nodeIcon,

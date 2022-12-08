@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./ProjectsList.css";
 
 import ProjectTemplate from "../ProjectTemplate";
-import reactIcon from "../icons/reactjs.png";
+import reactIcon from "../icons/react-icon.png";
 import mysqlIcon from "../icons/mysql.svg";
 import mongodbIcon from "../icons/mongodb.ico";
 import javascriptIcon from "../icons/javascript.svg";
@@ -12,17 +12,17 @@ import nodeIcon from "../icons/nodejs.svg";
 import aws_bucketIcon from "../icons/aws_bucket.svg";
 import herokuIcon from "../icons/heroku.svg";
 import netlifyIcon from "../icons/netlify.svg";
-import springIcon from "../icons/spring.svg";
+import dotnet from "../icons/NET_Core_Logo.png";
 
 const projects = [
   {
     title: "E-commerce",
     to: "https://e-commerce-boutique.netlify.app",
-    toGhithub: "https://github.com/Adelin04/E-commerce.Java.React.MongoDb",
+    toGhithub: "https://github.com/Adelin04",
     details: [
       reactIcon,
-      springIcon,
-      mongodbIcon,
+      dotnet,
+      mysqlIcon,
       aws_bucketIcon,
       herokuIcon,
       netlifyIcon
@@ -30,11 +30,11 @@ const projects = [
     photo: "../Boutique.png",
     description: ` "E-commerce" as the name implies is an online store : The app is under construction.\n 
     Tech stack used:
-     - Java Spring Boot for the backend 
-     - ReacJS for the frontend 
-     - Redux-Toolkit
-     - MongoDb for the database 
-     - AWS S3 to serve images
+    - .NET 7 for the backend 
+    - ReacJS for the frontend
+    - Redux-Toolkit for state container
+    - MySql for the database 
+    - AWS S3 to serve images
     `
   },
   {
