@@ -28,13 +28,19 @@ const projects = [
       netlifyIcon
     ],
     photo: "../Boutique.png",
-    description: ` "E-commerce" as the name implies is an online store : The app is under construction.\n 
+    description: `
+    "E-commerce" as the name implies is an online store .
     Tech stack used:
-    - .NET 7 for the backend 
-    - ReacJS for the frontend
-    - Redux-Toolkit for state container
-    - MySql for the database 
-    - AWS S3 to serve images
+     - .NET Core 6 for the backend
+              - User authorization and authentication
+              - RESTful API
+     - ReacJS for the frontend
+              - Online store
+              - Admin dashboard  
+     - Redux-Toolkit for State Management
+     - PostgreSQL for the database 
+     - AWS S3 to serve images
+    - CSS and TAILWIND for UI
     `
   },
   {
@@ -50,20 +56,22 @@ const projects = [
       netlifyIcon
     ],
     photo: "../projects.png",
-    description: `"Projects" as the name implies is a project management app:
-    You can create new projects, assign team members, set deadlines, change statuses.
-    It has user access rights the participants can see and edit only the projects they are part of.
+    description: `
+    "Projects" as the name implies is a project management app: You can create new projects, assign team members, set deadlines, change statuses. It has user access rights the participants can see and edit only the projects they are part of. 
     Tech stack used:
-    -	ReacJS for the frontend
-    -	Node.JS with Express for the backend
-    -	MySQL for the database
-    -	AWS S3 to serve images`
+     - Node.js for the backend 
+                - User authorization and authentication
+                - RESTful API
+     - ReacJs for the frontend 
+     - MySQL for the database 
+     - AWS S3 to serve images
+    `
   },
   {
     title: "Snake",
     to: "https://snake-react-gam3.netlify.app",
     toGhithub: "https://github.com/Adelin04/Snake",
-    details: [javascriptIcon,reactIcon, netlifyIcon],
+    details: [javascriptIcon, reactIcon, netlifyIcon],
     photo: "../snake.png",
     description: `A simple snake game. To make this game I used ReactJs framework.`
   },
@@ -80,11 +88,12 @@ const projects = [
       netlifyIcon
     ],
     photo: "../waterboat.png",
-    description: `"Waterboat" is a web site where people can book boats.
-    It has 3 pages: main page, booking page and view reservation page.
-    The frontend was created using ReactJs framework.
-    The backend was created with Python (Flask framework).
-    For database I used MySQL
+    description: `
+    "Waterboat" is a web site where people can book boats. 
+    It has 3 pages: main page, booking page and view reservation page. 
+    The frontend was created using ReactJs framework. 
+    The backend was created with Python Flask.
+    For database I used MySQL.
       `
   },
   {
@@ -104,7 +113,8 @@ const projects = [
     toGhithub: "https://github.com/Adelin04/Bibliotech",
     details: [pythonIcon, flaskIcon, netlifyIcon],
     photo: "../Bibliotech.png",
-    description: `"Bibliotech" is the backend of a book renting app.
+    description: `
+    "Bibliotech" is the backend of a book renting app.
     This was a required task in module three of the courses I took at the 'Academia te fac programator'.
     It uses 4 .txt files to store the data:
     (DB_books,DB_reviews,

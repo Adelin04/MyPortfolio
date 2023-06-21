@@ -12,16 +12,47 @@ import "./About_Template.css";
 const CV_MARIN_ADELIN_MARIUS = CV_decoded;
 
 const doc = new jsPDF("p", "px", "letter");
-doc.addImage(CV_MARIN_ADELIN_MARIUS, "PNG", 0, 0, 460, 600);
+doc.addImage(CV_MARIN_ADELIN_MARIUS, "PNG", 0, 0, 459, 597);
 
-doc.textWithLink("                      ", 25, 385, {
+
+//  LINKS INFO
+doc.textWithLink("                                    ", 40, 380, {
   url: "https://github.com/Adelin04",
 });
-doc.textWithLink("                      ", 25, 396, {
+doc.textWithLink("                                    ", 40, 397, {
   url: "https://adelin-marin-portfolio.netlify.app",
 });
-doc.textWithLink("                      ", 25, 407, {
+doc.textWithLink("                                    ", 40, 415, {
   url: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/",
+});
+
+//  LINKS PROJECTS
+doc.textWithLink("                                    ", 190, 54, {
+  url: "https://github.com/Adelin04/Ecommerce.Net.Server",
+});
+
+doc.textWithLink("                                    ", 190, 62, {
+  url: "https://github.com/Adelin04/E-commerce.React.Client",
+});
+
+doc.textWithLink("                                    ", 190, 177, {
+  url: "https://github.com/Adelin04/projects.server",
+});
+
+doc.textWithLink("                                    ", 190, 185, {
+  url: "https://github.com/Adelin04/projects.client",
+});
+
+doc.textWithLink("                                    ", 190, 280, {
+  url: "https://github.com/Adelin04/waterboat",
+});
+
+doc.textWithLink("                                    ", 190, 340, {
+  url: "https://github.com/Adelin04/Snake",
+});
+
+doc.textWithLink("                                    ", 190, 370, {
+  url: "https://github.com/Adelin04/Bibliotech",
 });
 
 const inlineStyle_wrapper = {
