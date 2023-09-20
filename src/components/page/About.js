@@ -11,7 +11,6 @@ import githubIcon from "../icons/github2.svg";
 import "./About.css";
 import ProjectsList from "./ProjectsList";
 
-
 const personalInfo = {
   email: "adelin.marin04@yahoo.com",
   phone: "0774617663",
@@ -32,25 +31,34 @@ const iconsList = {
 const projects = [
   {
     title: "E-commerce",
-    description: ` "E-commerce" as the name implies is an online store : The app is under construction.\n 
+    description: `
+    "E-commerce" as the name implies is an online store.
     Tech stack used:
-    - .NET 7 for the backend 
-    - ReacJS for the frontend
-    - Redux-Toolkit for state container
-    - MySql for the database 
-    - AWS S3 to serve images
+     - .NET Core 6 for the backend
+              - User authorization and authentication
+              - RESTful API
+     - ReacJS for the frontend
+              - Online store
+              - Admin dashboard  
+     - Redux-Toolkit for State Management
+     - PostgreSQL for the database 
+     - AWS S3 to serve images
+    - CSS and TAILWIND for UI
     `,
   },
   {
     title: "PROJECTS",
-    description: `"Projects" as the name implies is a project management app:
-    You can create new projects, assign team members, set deadlines, change statuses.
-    It has user access rights the participants can see and edit only the projects they are part of.
+    description: ` "Projects" as the name implies is a project management app: 
+    You can create new projects, assign team members, set deadlines, change statuses. It has user access rights the participants can see and edit only the projects they are part of. 
     Tech stack used:
-    -	ReacJS for the frontend
-    -	Node.JS with Express for the backend
-    -	MySQL for the database
-    -	AWS S3 to serve images`,
+     - Node.js for the backend 
+                - User authorization and authentication
+                - RESTful API
+     - ReacJS for the frontend
+     - CSS  for UI
+     - MySQL for the database 
+     - AWS S3 to serve images
+    `,
   },
   {
     title: "SNAKE",
@@ -58,13 +66,16 @@ const projects = [
   },
   {
     title: "Waterboat",
-    description: `"Waterboat" is a web site where people can book boats.
-    It has 3 pages: main page, booking page and view reservation page.
-    The frontend was created using ReactJs framework.
-    The backend was created with Python (Flask framework).
-    For database I used MySQL
+    description: `"Waterboat"  is a web site where people can book boats .
+    It was created for one of the exams during the course I took. The web site has 3 pages: main page, booking page and view reservation page. 
+    Tech stack used:
+    - The frontend was created using ReactJs framework. 
+    - The backend was created with  NodeJS.
+    - CSS for UI
+    - For database I used PostgreSQL.
     `,
   },
+  
   {
     title: "TO-DO LIST",
     description: `"ToDo List" is a simple app for tasks management:
@@ -124,7 +135,6 @@ const certifications = [{ name: "'Te Fac Programator'", certification: "" }];
 const languages = [{ language: "English", nivel: "B2" }];
 
 const About = () => {
-  
   return (
     <div className="about">
       <About_Template

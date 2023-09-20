@@ -8,26 +8,28 @@ import portfolioIcon from "./icons/portfolio.svg";
 //Style
 import "./About_Template.css";
 
-
 const CV_MARIN_ADELIN_MARIUS = CV_decoded;
 
-const doc = new jsPDF("p", "px", "letter");
-doc.addImage(CV_MARIN_ADELIN_MARIUS, "PNG", 0, 0, 459, 597);
+// const img = new Image();
+// img.onload = () => {
+// };
 
+const doc = new jsPDF("p", "px", "letter");
+doc.addImage(CV_MARIN_ADELIN_MARIUS, "PNG" || "png", 0, 0, 459, 602);
 
 //  LINKS INFO
-doc.textWithLink("                                    ", 40, 380, {
+doc.textWithLink("_______________", 35, 401, {
   url: "https://github.com/Adelin04",
 });
-doc.textWithLink("                                    ", 40, 397, {
+doc.textWithLink("_____________________", 35, 416, {
   url: "https://adelin-marin-portfolio.netlify.app",
 });
-doc.textWithLink("                                    ", 40, 415, {
+doc.textWithLink("_____________________", 35, 436, {
   url: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/",
 });
 
 //  LINKS PROJECTS
-doc.textWithLink("                                    ", 190, 54, {
+/* doc.textWithLink("                                    ", 190, 54, {
   url: "https://github.com/Adelin04/Ecommerce.Net.Server",
 });
 
@@ -53,7 +55,7 @@ doc.textWithLink("                                    ", 190, 340, {
 
 doc.textWithLink("                                    ", 190, 370, {
   url: "https://github.com/Adelin04/Bibliotech",
-});
+}); */
 
 const inlineStyle_wrapper = {
   display: "flex",
@@ -71,7 +73,6 @@ const About_Template = ({
   certifications,
   projects,
 }) => {
-
   return (
     <div className="about_Template">
       <div style={{ overflowY: "auto" }}>
