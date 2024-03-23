@@ -18,15 +18,17 @@ const doc = new jsPDF("p", "px", "letter");
 doc.addImage(CV_MARIN_ADELIN_MARIUS, "PNG" || "png", 0, 0, 459, 602);
 
 //  LINKS INFO
-doc.textWithLink("_______________", 35, 401, {
+doc.setTextColor("#FFFFFF");
+doc.textWithLink("____________________", 27, 190, {
   url: "https://github.com/Adelin04",
 });
-doc.textWithLink("_____________________", 35, 416, {
+doc.textWithLink("____________________", 27, 207, {
   url: "https://adelin-marin-portfolio.netlify.app",
 });
-doc.textWithLink("_____________________", 35, 436, {
+doc.textWithLink("____________________", 27, 232, {
   url: "https://www.linkedin.com/in/adelin-marin-5b1a881b8/",
 });
+
 
 //  LINKS PROJECTS
 /* doc.textWithLink("                                    ", 190, 54, {

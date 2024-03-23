@@ -43,7 +43,7 @@ const projects = [
      - Redux-Toolkit for State Management
      - PostgreSQL for the database 
      - AWS S3 to serve images
-    - CSS and TAILWIND for UI
+     - CSS and TAILWIND for UI
     `,
   },
   {
