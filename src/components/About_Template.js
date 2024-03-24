@@ -15,7 +15,7 @@ const CV_MARIN_ADELIN_MARIUS = CV_decoded;
 // };
 
 const doc = new jsPDF("p", "px", "letter");
-doc.addImage(CV_MARIN_ADELIN_MARIUS, "PNG" || "png", 0, 0, 459, 602);
+doc.addImage(CV_MARIN_ADELIN_MARIUS, "PNG" || "png", 0, 0, 459, 600);
 
 //  LINKS INFO
 doc.setTextColor("#FFFFFF");
