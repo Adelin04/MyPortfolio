@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import PopUp_Template from "./PopUp_Template";
+import githubIcon from "./icons/github2.svg";
 
 //style
 import "./ProjectTemplate.css";
@@ -21,6 +22,17 @@ const ProjectTemplate = ({
         <h1 className="title-project">
           {title}
         </h1>
+
+        <div className="wrapper-github">
+          <Link
+            className="link-github"
+            to={{ pathname: toGhithub }}
+            target={"_blank"}
+          >
+            <img className="icon-ghithub" src={githubIcon} alt="icon-ghithub" />
+            <p className="msg-icon">Github Code</p>
+          </Link>
+        </div>
 
         <Link
           onMouseOver={() => setToggle(true)}

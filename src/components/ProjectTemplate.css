@@ -26,12 +26,50 @@
   display: flex;
   width: auto;
   height: auto;
-  margin: 15px;
-  font-size: 25px;
+  margin: 10px;
+  font-size: 30px;
   color: black;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.wrapper-github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0px 5px 5px 5px;
+}
+
+.link-github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.icon-ghithub {
+  left: 260px;
+  top: 270px;
+  width: 30px;
+  height: auto;
+}
+
+.msg-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 15px;
+  font-size: 17px;
+  color: black;
+  font-style: italic;
+  font-weight: bolder;
 }
 
 .details-project {

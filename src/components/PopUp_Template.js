@@ -11,14 +11,14 @@ const PopUp_Template = ({ description, toGhithub }) => {
         {description}
       </div>
 
-      <Link
+     {/*  <Link
         style={{ width: "auto", height: "auto" }}
         to={{ pathname: toGhithub }}
         target={"_blank"}
       >
         <img className="icon-ghithub" src={githubIcon} alt="icon-ghithub" />
         <p className="msg-icon">To see the code please click on github icon.</p>
-      </Link>
+      </Link> */}
 
     </Wrapper>
   );
@@ -33,7 +33,7 @@ const Wrapper = styled.div`
   align-items: center;
   flex-direction: column;
   border-radius: 15px;
-  background: rgba(189, 182, 182, 0.652);
+  background: rgb(255 255 255 / 85%);
 
   .wrapper-description {
     display: flex;
