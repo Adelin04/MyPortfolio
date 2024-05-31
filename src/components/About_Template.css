@@ -1,0 +1,571 @@
+.about_Template {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  font-weight: bolder;
+  margin: 10px auto;
+}
+
+.name title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  font-size: 50px;
+  text-align: center;
+  padding: 5px;
+}
+
+.name h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+}
+
+.separator {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.wrapper-card-personalInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-personalInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  padding: 5px;
+  margin: auto;
+}
+
+.wrapper-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.wrapper-photo .photo {
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.wrapper-card-personalInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+}
+
+.card-personalInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 250px;
+  /* background-color: burlywood; */
+}
+
+.email,
+.phone,
+.address {
+  font-weight: bold;
+}
+
+.email,
+.phone,
+.address,
+.linkedin,
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 30px;
+  margin: 2px;
+}
+
+
+.email img,
+.phone img,
+.address img,
+.linkedin img,
+.github img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  width: 20px;
+  height: 20px;
+}
+
+.email a,
+.phone a,
+.address a,
+.linkedin a,
+.github a {
+  display: flex;
+  align-content: center;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.email span,
+.phone span,
+.address span,
+.linkedin span,
+.github span {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin: 0px auto 0px 15px;
+}
+
+.linkedin a,
+.github a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.linkedin a:hover,
+.github a:hover {
+  color: white;
+}
+
+/* Developer Experience */
+.wrapper-developer-experince {
+  /*   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto; */
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+}
+
+.wrapper-label-developer-experince {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: 0;
+  height: auto;
+}
+
+.wrapper-label-developer-experince span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  text-align: center;
+  margin: auto;
+}
+
+.card-developer-experince {
+  /*   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: 5px;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.wrapper-developer-experince-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+}
+
+/* Work Experience */
+.wrapper-work-experince {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+}
+
+.card-work-experince {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: 5px;
+  overflow-y: visible;
+  overflow-x: hidden;
+  /* background-color: aqua; */
+}
+
+.wrapper-job {
+  margin: 5px;
+}
+
+.project-title,
+.project-description,
+.job-title,
+.job-position,
+.job-from-to {
+  width: auto;
+  height: auto;
+}
+
+.project-title,
+.job-title {
+  margin: 5px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+label {
+  font-size: large;
+  font-weight: bolder;
+  min-width: 140px;
+  width: auto;
+  height: auto;
+  /* background-color: crimson; */
+}
+
+.wrapper-education {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+  /* background-color: bisque; */
+}
+
+.card-education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: 5px;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.school-profile,
+.certification,
+.school-name,
+.school-from-to {
+  width: auto;
+  height: auto;
+}
+
+.school-profile {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+  height: auto;
+  padding: 15px;
+  margin: 2px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.card-languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: 5px;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.wrapper-languages {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+  /* background-color: coral; */
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+
+.wrapper-certifications {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+  /* background-color: bisque; */
+}
+
+.card-certifications {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: 5px;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.certification {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  font-size: large;
+  font-weight: bolder;
+}
+
+li {
+  text-align: center;
+  width: auto;
+  padding: 0px 5px;
+  margin: 0px 5px;
+}
+
+.btn-save {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 200px;
+  height: 30px;
+  margin: 0px 55px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+/* @media screen and (max-width: 750px) {
+  .wrapper-personalInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+} */
+
+@media screen and (max-width: 900px) {
+  label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: large;
+    font-weight: bolder;
+  }
+
+  .wrapper-personalInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .email,
+  .phone,
+  .address,
+  .linkedin,
+  .github {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    min-width: 240px;
+    width: auto;
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+  }
+
+  .linkedin a:hover,
+  .github a:hover {
+    color: white;
+  }
+
+  .wrapper-label-developer-experince {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: auto;
+    height: auto;
+  }
+
+  .wrapper-label-developer-experince span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    text-align: center;
+    margin: auto;
+  }
+
+  .wrapper-developer-experince,
+  .wrapper-work-experince,
+  .wrapper-education,
+  .wrapper-certifications,
+  .wrapper-languages {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 15px auto;
+  }
+
+  .card-personalInfo,
+  .card-developer-experince,
+  .card-work-experince,
+  .card-education,
+  .card-certifications,
+  .card-languages {
+    display: block;
+    height: auto;
+    width: auto;
+    margin: 15px;
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
+
+  .wrapper-card-personalInfo {
+    width: 100%;
+  }
+
+  .card-personalInfo {
+    order: 2;
+  }
+
+  .wrapper-job {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .wrapper-card-personalInfo {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .linkedin a:hover,
+  .github a:hover {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .wrapper-photo .photo {
+    width: 150px;
+    order: 0;
+  }
+
+  .wrapper-card-personalInfo {
+    font-size: 10px;
+  }
+
+  .card-personalInfo a,
+  .card-personalInfo span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+  }
+
+  .email,
+  .phone,
+  .address,
+  .linkedin,
+  .github {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    min-width: 0;
+    width: auto;
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+  }
+
+  .linkedin a:hover,
+  .github a:hover {
+    color: white;
+  }
+}

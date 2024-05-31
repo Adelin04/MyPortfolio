@@ -1,0 +1,98 @@
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  margin: 5px;
+}
+.wrapper-skills {
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 1px solid rgb(79, 151, 165);
+  border-radius: 35px;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  padding: 5px;
+  height: 40%;
+  margin: 5px;
+  overflow: auto;
+}
+
+.wrapper-label-skill{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.label {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 0px 50px;
+  font-size: large;
+  font-weight: bolder;
+  width: 100%;
+  height: auto;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin: 0px 15px;
+}
+
+.skill-photo {
+  width: 30px;
+  height: auto;
+  margin: 0px 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.skill-name {
+  width: auto;
+  height: auto;
+  margin: 5px auto;
+}
+
+@media screen and (max-width: 500px) {
+  .label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 0px 35px;
+    font-size: medium;
+    font-weight: bolder;
+    width: auto;
+    min-height: 20px;
+  }
+
+  .skill {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .skill-photo {
+    width: 25px;
+    height: auto;
+    margin: 0px;
+  }
+
+  .skill-name {
+    font-size: 12px;
+  }
+}
