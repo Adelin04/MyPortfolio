@@ -1,4 +1,5 @@
 import React from "react";
+import InputEmoji from "react-input-emoji";
 import { Link } from "react-router-dom";
 import { jsPDF } from "jspdf";
 import { CV_decoded } from "../components/base64_decoded";
@@ -96,8 +97,8 @@ const About_Template = ({
         </button>
         <div className="wrapper-personalInfo">
           <div className="name">
-            <title>Adelin Marin</title>
-            <h2>Software Development</h2>
+            <title>Hello,I'm Adelin Marin 🖐 </title>
+            <h2>Full Stack Web Developer</h2>
             <h2>3D Artist</h2>
           </div>
 
