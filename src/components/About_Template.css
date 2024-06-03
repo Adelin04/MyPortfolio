@@ -343,8 +343,8 @@ label {
 
 .language {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: start;
+  justify-content: center;
   width: auto;
   height: auto;
 }
@@ -380,12 +380,84 @@ label {
   font-weight: bolder;
 }
 
+.modules-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.module-1,
+.module-2,
+.module-3,
+.module-4 {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: 17px;
+}
+
+.module-1 p,
+.module-2 p,
+.module-4 p,
+.module-3 p {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  font-size: 19px;
+  font-weight: bolder;
+  width: 140px;
+  margin: 0px 5px;
+}
+
+.wrapper-modules {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.module-1 ul,
+.module-2 ul,
+.module-4 ul,
+.module-3 ul {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+
 li {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: auto;
   padding: 0px 5px;
   margin: 0px 5px;
+  font-weight: bold;
+  font-size: 15px;
+  /*   text-align: center;
+  width: auto;*/
 }
+
+.wrapper-language {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+.wrapper-language p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .btn-save {
   display: flex;
@@ -527,16 +599,42 @@ li {
   .github a:hover {
     color: white;
   }
-}
 
-@media screen and (max-width: 250px) {
-  .wrapper-photo .photo {
-    width: 150px;
-    order: 0;
+  .module-1 p,
+  .module-2 p,
+  .module-4 p,
+  .module-3 p {
+    font-size: 15px;
   }
 
+  .module-1 li,
+  .module-2 li,
+  .module-4 li,
+  .module-3 li {
+    font-size: 12px;
+  }
+
+  .wrapper-photo .photo {
+    width: 160px;
+  }
+
+  .email,
+  .phone,
+  .address,
+  .linkedin,
+  .github {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 410px) {
   .wrapper-card-personalInfo {
     font-size: 10px;
+  }
+
+  .separator {
+    display: flex;
+    flex-direction: column;
   }
 
   .card-personalInfo a,
@@ -553,19 +651,19 @@ li {
   .linkedin,
   .github {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    box-sizing: border-box;
-    min-width: 0;
-    width: auto;
-    height: 35px;
-    padding: 5px;
-    margin: 5px;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .linkedin a:hover,
   .github a:hover {
     color: white;
   }
+
+  .wrapper-photo .photo {
+    width: 160px;
+  }
+
+
 }

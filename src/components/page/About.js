@@ -130,7 +130,7 @@ const schools = [
   },
 ];
 
-const certifications = [{ name: "'Te Fac Programator'", certification: "" }];
+const certifications = [{ name: "'ACADEMIA TE FAC PROGRAMTOR'", certification: "" }];
 
 const languages = [{ language: "Romain", nivel: "Native" }, { language: "English", nivel: "B2" }];
 

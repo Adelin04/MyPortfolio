@@ -5,7 +5,8 @@ import { jsPDF } from "jspdf";
 import { CV_decoded } from "../components/base64_decoded";
 import saveIcon from "./icons/save-icon.png";
 import portfolioIcon from "./icons/portfolio.svg";
-
+import binary_tree_right from "./icons/binary_tree_right.png";
+import binary_tree_up from "./icons/binary_tree_up.png";
 //Style
 import "./About_Template.css";
 import Skills_Template from "./Skills_Template";
@@ -146,22 +147,22 @@ const About_Template = ({
               </div>
 
               <div className="wrapper-photo">
-                <img className="photo" src={personlInfo.photo} />
+                <img className="photo" src={personlInfo.photo} alt="PersonalPhoto"/>
               </div>
 
             </div>
 
             <div className="aboutMe">
-              <span style={{ display:'contents',color:'transparent' }}>{"---------"}</span> I am an ambitious,serious and dedicated person in everything I do.At the moment I work as a 3D artist for a jewelry company.
+              <span style={{ display: 'contents', color: 'transparent' }}>{"---------"}</span> I am an ambitious,serious and dedicated person in everything I do.At the moment I work as a 3D artist for a jewelry company.
               I am passionate about everything related to IT, especially programming. It started as a simple curiosity which developed into a strong drive to learn as much as I can about this wonderful and complicated industry.
               My goal is to find a web developer job and a team to share the same passion with, to learn from as much as possible about this field.
               After some programming courses I took, I realized that I like both the frontend and the backend.
-              The programming languages and frameworks I worked with the longest and that I used to build several demonstrative <Link style={{ display: 'contents', color: 'white' }} to={'/projects'}>Projects</Link> are: 
-              <br /><span style={{ display:'contents',color:'transparent' }}>{"---"}</span>-C# - ASP.NET Core
-              <br /><span style={{ display:'contents',color:'transparent' }}>{"---"}</span>-JavaScript - Node.js, React.js, Redux, Zustand 
-              <br /><span style={{ display:'contents',color:'transparent' }}>{"---"}</span>-Mostly I used MySql ,PstgreSql and MongoDB for database
-              <br /><span style={{ display:'contents',color:'transparent' }}>{"---"}</span>-.Git, GitHub, Heroku, AWS S3, Nginx.
-              <br /><span style={{ display:'contents',color:'transparent' }}>{"---"}</span>-I also have knowledge of other programming languages and tools.
+              The programming languages and frameworks I worked with the longest and that I used to build several demonstrative <Link style={{ display: 'contents', color: 'white' }} to={'/projects'}>Projects</Link> are:
+              <br /><span style={{ display: 'contents', color: 'transparent' }}>{"---"}</span>-C# - ASP.NET Core
+              <br /><span style={{ display: 'contents', color: 'transparent' }}>{"---"}</span>-JavaScript - Node.js, React.js, Redux, Zustand
+              <br /><span style={{ display: 'contents', color: 'transparent' }}>{"---"}</span>-Mostly I used MySql ,PstgreSql and MongoDB for database
+              <br /><span style={{ display: 'contents', color: 'transparent' }}>{"---"}</span>-.Git, GitHub, Heroku, AWS S3, Nginx.
+              <br /><span style={{ display: 'contents', color: 'transparent' }}>{"---"}</span>-I also have knowledge of other programming languages and tools.
             </div>
 
 
@@ -247,27 +248,66 @@ const About_Template = ({
                     {certification.name} {`${certification.certification}`}
                   </p>
                   <br />
-                  <p>Modul 1 : Fundamentals of programming C/C++ Algorithms</p>
-                  <p>Modul 2 : C# OOP</p>
-                  <span>Modul 3 : </span>
-                  <div style={{ display: "flex" }}>
-                    <li> Python </li>
-                    <li> Flask</li>
-                    <li> Java Script </li>
-                    <li> React Js</li>
-                  </div>
-                  <span>Modul 4 :</span>
-                  <div style={{ display: "flex", flexWrap: "wrap" }}>
-                    <li> Java </li>
-                    <li> Spring Boot</li>
-                    <li> Maven </li>
-                    <li> Hibernate </li>
-                    <li> MySQL</li>
-                    <li>Cucumber</li>
-                    <li> Selenium </li>
-                    <li> .Git </li>
-                  </div>
 
+                  <div className="modules-card">
+
+                    {/* <svg className="tree-icon" style={{ width: "70px", height: '100px' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256"><path fill="currentColor" d="M176 152h32a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16h-32a16 16 0 0 0-16 16v8H88V80h8a16 16 0 0 0 16-16V32a16 16 0 0 0-16-16H64a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h8v112a24 24 0 0 0 24 24h64v8a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16h-32a16 16 0 0 0-16 16v8H96a8 8 0 0 1-8-8v-64h72v8a16 16 0 0 0 16 16M64 32h32v32H64Zm112 160h32v32h-32Zm0-88h32v32h-32Z" /></svg>
+                    <svg className="tree-icon" style={{ width: "70px", height: '100px' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256"><path fill="currentColor" d="M176 152h32a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16h-32a16 16 0 0 0-16 16v8H88V80h8a16 16 0 0 0 16-16V32a16 16 0 0 0-16-16H64a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h8v112a24 24 0 0 0 24 24h64v8a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16h-32a16 16 0 0 0-16 16v8H96a8 8 0 0 1-8-8v-64h72v8a16 16 0 0 0 16 16M64 32h32v32H64Zm112 160h32v32h-32Zm0-88h32v32h-32Z" /></svg> */}
+
+                    <div className="wrapper-modules">
+
+                      <div className="module-1">
+
+                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+
+                          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                            <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                            <p>{"Module 1"} </p>
+                            <ul style={{ flexWrap: "wrap" }}>
+                              <li> Fundamentals of programming C/C++ Algorithms </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div className="module-2">
+                        <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                        <p>{"Module 2"} </p>
+                        <ul style={{ flexWrap: "wrap" }}>
+                          <li> C# - OOP </li>
+                        </ul>
+                      </div>
+
+                      <div className="module-3">
+                        <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                        <p>{"Module 3"}</p>
+                        <ul style={{ flexWrap: "wrap" }}>
+                          <li> Python </li>
+                          <li> Flask</li>
+                          <li> Java Script </li>
+                          <li> React Js</li>
+                        </ul>
+                      </div>
+
+                      <div className="module-4">
+                        <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                        <p>{"Module 4"}</p>
+                        <ul style={{ flexWrap: "wrap" }}>
+                          <li> Java </li>
+                          <li> Spring Boot</li>
+                          <li> Maven </li>
+                          <li> Hibernate </li>
+                          <li> MySQL</li>
+                          <li>Cucumber</li>
+                          <li> Selenium </li>
+                          <li> .Git </li>
+                        </ul>
+                      </div>
+
+                    </div>
+
+                  </div>
                   {/* <hr style={{ height: "1px", color: "black" }} /> */}
                 </div>
               );
@@ -281,10 +321,13 @@ const About_Template = ({
           <div className="card-languages">
             {languages.map((language, index) => {
               return (
-                <div style={inlineStyle_wrapper} key={index}>
-                  <p className="language">
-                    {language.language} {`- ${language.nivel}`}
-                  </p>
+                <div className="wrapper-language" key={index}>
+                  <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                  <ul style={{ flexWrap: "wrap" }}>
+                    <li className="language">
+                      {language.language} {`- ${language.nivel}`}
+                    </li>
+                  </ul>
                   {/* <p className="language">English courses - present</p> */}
                   {/* <hr style={{ height: "1px", color: "black" }} /> */}
                 </div>
@@ -297,7 +340,7 @@ const About_Template = ({
         <Skills />
 
       </div>
-    </div>
+    </div >
   );
 };
 
