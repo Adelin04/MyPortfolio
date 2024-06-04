@@ -79,7 +79,7 @@ const Wrapper = styled.div`
       width: 90%;
       height: auto;
       text-align: center;
-      font-size: 10px;
+      font-size: 15px;
       font-weight: bolder;
       color: black;
     }
