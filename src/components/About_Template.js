@@ -13,8 +13,6 @@ import Skills_Template from "./Skills_Template";
 import Skills from "./page/Skills";
 
 const CV_MARIN_ADELIN_MARIUS = CV_decoded;
-const aboutMe = 'I am an ambitious, serious and dedicated person in everything I do.At the moment I work as a 3D artist for a jewelry company.I am passionate about everything related to IT, especially programming. It started as a simple curiosity which developed into a strong drive to learn as much as I can about this wonderful and complicated industry. My goal is to find a web developer job and a team to share the same passion with, to learn from as much as possible about this field. After some programming courses I took, I realized that I like both the frontend and the backend. The programming languages and frameworks I worked with the longest and that I used to build several demonstrative projects are: \n - C# -> .Net - JavaScript -> Node.js ,React.js , Redux - mostly I used MySql ,PstgreSql and MongoDB for database. - .Git, GitHub, Heroku, AWS S3, Nginx. - I also have knowledge of other programming languages and tools.'
-
 // const img = new Image();
 // img.onload = () => {
 // };
@@ -147,7 +145,7 @@ const About_Template = ({
               </div>
 
               <div className="wrapper-photo">
-                <img className="photo" src={personlInfo.photo} alt="PersonalPhoto"/>
+                <img className="photo" src={personlInfo.photo} alt="PersonalPhoto" />
               </div>
 
             </div>
@@ -261,7 +259,9 @@ const About_Template = ({
                         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 
                           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                            <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100px', height: 'auto' }}>
+                              <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                            </div>
                             <p>{"Module 1"} </p>
                             <ul style={{ flexWrap: "wrap" }}>
                               <li> Fundamentals of programming C/C++ Algorithms </li>
@@ -272,7 +272,9 @@ const About_Template = ({
                       </div>
 
                       <div className="module-2">
-                        <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100px', height: 'auto' }}>
+                          <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                        </div>
                         <p>{"Module 2"} </p>
                         <ul style={{ flexWrap: "wrap" }}>
                           <li> C# - OOP </li>
@@ -280,7 +282,9 @@ const About_Template = ({
                       </div>
 
                       <div className="module-3">
-                        <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100px', height: 'auto' }}>
+                          <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                        </div>
                         <p>{"Module 3"}</p>
                         <ul style={{ flexWrap: "wrap" }}>
                           <li> Python </li>
@@ -291,7 +295,9 @@ const About_Template = ({
                       </div>
 
                       <div className="module-4">
-                        <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100px', height: 'auto' }}>
+                          <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                        </div>
                         <p>{"Module 4"}</p>
                         <ul style={{ flexWrap: "wrap" }}>
                           <li> Java </li>
@@ -322,7 +328,9 @@ const About_Template = ({
             {languages.map((language, index) => {
               return (
                 <div className="wrapper-language" key={index}>
-                  <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100px', height: 'auto' }}>
+                    <img style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '120px' }} src={binary_tree_right} alt="binary_tree" />
+                  </div>
                   <ul style={{ flexWrap: "wrap" }}>
                     <li className="language">
                       {language.language} {`- ${language.nivel}`}
